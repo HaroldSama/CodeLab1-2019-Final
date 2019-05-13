@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c6534d97-160b-4540-a1bc-2713f27d9fc0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/.idea.CodeLab1-2019-Final/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/.idea.CodeLab1-2019-Final/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/.idea.CodeLab1-2019-Final/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/.idea.CodeLab1-2019-Final/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/.idea.CodeLab1-2019-Final/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Mirror/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Mirror/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Mirror/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Mirror/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Mirror/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Mirror/riderModule.iml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1205622259">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.38" value="1" />
+          <entry key="project.open.time.90" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cs" value="1" />
+          <entry key="shader" value="1" />
+          <entry key="txt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="ShaderLab" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/MagicMirror/Prefab/Material/MagicMirrorBumpShader.shader">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1547964885000" expanded="true" signature="0:189" ph="/* Magic Mirror Pro - Recursive Edition ... */" />
+                <marker date="1547964885000" expanded="true" signature="223:2909" ph="{...}" />
+                <marker date="1547964885000" expanded="true" signature="238:852" ph="{...}" />
+                <marker date="1547964885000" expanded="true" signature="865:2873" ph="{...}" />
+                <marker date="1547964885000" expanded="true" signature="953:2865" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/MagicMirror/Prefab/MagicMirrorScript.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1547964888000" expanded="true" signature="0:189" ph="/* Magic Mirror Pro - Recursive Edition ... */" />
+                <marker date="1547964888000" expanded="false" signature="197:283" ph="..." />
+                <marker date="1547964888000" expanded="true" signature="318:31306" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="395:31304" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="445:552" ph="{...}" />
+                <marker date="1547964888000" expanded="false" signature="563:3740" ph="Public properties" />
+                <marker date="1547964888000" expanded="true" signature="3531:3633" ph="/// The current recursion level of mirrors being rendered ... " />
+                <marker date="1547964888000" expanded="true" signature="4690:4776" ph="/// Information about a camera reflection ... " />
+                <marker date="1547964888000" expanded="true" signature="4818:5811" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="4841:4918" ph="/// The observing camera ... " />
+                <marker date="1547964888000" expanded="true" signature="4972:5050" ph="/// The reflection camera ... " />
+                <marker date="1547964888000" expanded="true" signature="5108:5213" ph="/// Whether the source camera is a reflection camera ... " />
+                <marker date="1547964888000" expanded="true" signature="5277:5355" ph="/// Target render texture ... " />
+                <marker date="1547964888000" expanded="true" signature="5417:5752" ph="/// Second target render texture, only needed if VR is enabled. This is for the right eye. ... " />
+                <marker date="1547964888000" expanded="true" signature="5885:6217" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="5994:6051" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="6287:6586" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="6356:6551" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="6438:6537" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="6596:6903" ph="/// Determines whether a camera is a reflection camera ... " />
+                <marker date="1547964888000" expanded="true" signature="6981:7203" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="7213:7732" ph="/// Render a reflection camera. ... " />
+                <marker date="1547964888000" expanded="true" signature="7996:9051" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="8055:8818" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="8217:8435" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="8584:8804" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="8835:9041" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="9061:9697" ph="/// Render a reflection camera. Reflection camera should already be setup with a render texture. ... " />
+                <marker date="1547964888000" expanded="true" signature="10048:13241" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="10264:10338" ph="/* Render reflection ... */" />
+                <marker date="1547964888000" expanded="true" signature="10405:10487" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="11056:11332" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="11387:11664" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="11681:11802" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="11984:12457" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="12015:12179" ph="/* Optimization: Setup oblique projection matrix so that near plane is our reflection plane. ... */" />
+                <marker date="1547964888000" expanded="true" signature="12516:12615" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="12912:13117" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="13364:13786" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="13529:13687" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="13871:14495" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="14136:14193" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="14401:14458" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="14578:14961" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="14635:14687" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="14855:14951" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="15019:15394" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="15176:15384" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="15289:15370" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="15429:15665" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="15492:15582" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="15698:16732" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="15738:16503" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="15964:16043" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="16199:16489" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="16333:16471" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="16766:17022" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="17056:17337" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="17125:17177" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="17242:17327" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="17380:17445" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="17496:17893" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="17946:17967" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="18021:20758" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="18081:18496" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="18560:18795" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="18636:18781" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="18971:20748" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="19002:19185" ph="/* free up temporary render textures ... */" />
+                <marker date="1547964888000" expanded="true" signature="19432:20734" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="19723:20364" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="19801:20342" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="20552:20716" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="20842:23020" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="21196:21332" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="22450:23010" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="22538:22996" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="22680:22882" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="23133:26780" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="23328:23385" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="23722:23926" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="24175:24323" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="24403:24972" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="24830:24957" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="24989:25194" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="25769:25873" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="26022:26604" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="26362:26479" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="26621:26707" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="26852:29653" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="27109:27161" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="27889:28359" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="27949:28054" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="28376:28486" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="29863:30225" ph="{...}" />
+                <marker date="1547964888000" expanded="true" signature="30387:31298" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/MagicMirror/Prefab/Material/MagicMirrorBumpShader.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MagicMirror/Prefab/MagicMirrorScript.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="13" />
+    <option name="width" value="1344" />
+    <option name="height" value="823" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="UnityExplorer">
+        <option name="show-hidden-items" value="false" />
+      </pane>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor" />
+      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor &amp; Play" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c6534d97-160b-4540-a1bc-2713f27d9fc0" name="Default Changelist" comment="" />
+      <created>1557670272782</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557670272782</updated>
+      <workItem from="1557670293332" duration="1862000" />
+      <workItem from="1557739923394" duration="205000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1862000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25321338" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="13" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/MagicMirror/Prefab/Material/MagicMirrorBumpShader.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-305">
+          <folding>
+            <marker date="1547964885000" expanded="true" signature="0:189" ph="/* Magic Mirror Pro - Recursive Edition ... */" />
+            <marker date="1547964885000" expanded="true" signature="223:2909" ph="{...}" />
+            <marker date="1547964885000" expanded="true" signature="238:852" ph="{...}" />
+            <marker date="1547964885000" expanded="true" signature="865:2873" ph="{...}" />
+            <marker date="1547964885000" expanded="true" signature="953:2865" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/MagicMirror/Prefab/Readme.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/MagicMirror/Prefab/MagicMirrorScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1575" />
+      </provider>
+    </entry>
+  </component>
+</project>
