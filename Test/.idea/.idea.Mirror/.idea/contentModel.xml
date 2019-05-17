@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Noah.Noah-PC\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Noah.Noah-PC\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_Mirror.-2043508676.00" t="ExcludeRecursive" />
+    <e p="D:\@@@我的文件@@@\NYU\Semester 2\CodeLab1\CodeLab1-2019-Final\Mirror" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="MagicMirror" t="Include">
+          <e p="Demo" t="Include">
+            <e p="DemoScript.cs" t="Include" />
+          </e>
+          <e p="Prefab" t="Include">
+            <e p="Editor" t="Include">
+              <e p="MagicMirrorEditor.cs" t="Include" />
+            </e>
+            <e p="MagicMirrorScript.cs" t="Include" />
+            <e p="Material" t="Include">
+              <e p="MagicMirrorBumpShader.shader" t="Include" />
+            </e>
+            <e p="MirrorCameraScript.cs" t="Include" />
+            <e p="MirrorReflectionScript.cs" t="Include" />
+            <e p="MirrorScript.cs" t="Include" />
+            <e p="MirrorShader.shader" t="Include" />
+            <e p="MirrorShaderBumpMap.shader" t="Include" />
+            <e p="MirrorShaderOld.shader" t="Include" />
+            <e p="Readme.txt" t="Include" />
+          </e>
+          <e p="Readme.txt" t="Include" />
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="ReflectProbeController.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="Mirror.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>
