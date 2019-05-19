@@ -207,11 +207,20 @@
           <e p="GhostMovement.cs" t="Include" />
           <e p="MirrorCam.cs" t="Include" />
           <e p="MirrorMover.cs" t="Include" />
+          <e p="Narratives" t="Include">
+            <e p="BlinkingText.cs" t="Include" />
+            <e p="NarrativeController.cs" t="Include" />
+            <e p="NarrativeManager.cs" t="Include" />
+          </e>
           <e p="NavMeshController.cs" t="Include" />
           <e p="Test" t="Include">
             <e p="PlayerController.cs" t="Include" />
           </e>
           <e p="ValveMovement.cs" t="Include" />
+          <e p="Visual" t="Include">
+            <e p="RipplePool.cs" t="Include" />
+            <e p="RippleSelfControl.cs" t="Include" />
+          </e>
         </e>
         <e p="Tests" t="Include">
           <e p="Editor" t="Include">

@@ -15,6 +15,8 @@ public class NavMeshController : MonoBehaviour
     private Animator animGhost;
     private Rigidbody rb;
 
+    public static bool firstClick;
+
     private void Awake()
     {
         anim = GetComponent<Animator>();
@@ -55,6 +57,8 @@ public class NavMeshController : MonoBehaviour
                 //agent.updatePosition = false;
                 //agent.updateRotation = false;
                 agent.SetDestination(hit.point);
+                RipplePool.instance.GetRipple(hit.point);
+                firstClick = true;
             }
         }
 
