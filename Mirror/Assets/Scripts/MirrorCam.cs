@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MirorCam : MonoBehaviour
+public class MirrorCam : MonoBehaviour
 {
     public GameObject mirror;
     private Camera cam;

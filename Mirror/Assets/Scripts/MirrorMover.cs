@@ -61,6 +61,8 @@ public class MirrorMover : MonoBehaviour
         reference = MousePos;
         //agent.velocity = Vector3.zero;
         //rb.velocity = Vector3.zero;
+        
+        //Make character being able to fall when the path was move off her feet
         rb.isKinematic = false;
         agent.enabled = false;
     }

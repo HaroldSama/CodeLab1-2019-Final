@@ -205,10 +205,13 @@
         <e p="Scripts" t="Include">
           <e p="BuildNav.cs" t="Include" />
           <e p="GhostMovement.cs" t="Include" />
-          <e p="MirorCam.cs" t="Include" />
+          <e p="MirrorCam.cs" t="Include" />
           <e p="MirrorMover.cs" t="Include" />
           <e p="NavMeshController.cs" t="Include" />
-          <e p="PlayerController.cs" t="Include" />
+          <e p="Test" t="Include">
+            <e p="PlayerController.cs" t="Include" />
+          </e>
+          <e p="ValveMovement.cs" t="Include" />
         </e>
         <e p="Tests" t="Include">
           <e p="Editor" t="Include">
