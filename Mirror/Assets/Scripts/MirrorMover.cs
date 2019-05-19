@@ -3,12 +3,15 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Xml.Schema;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class MirrorMover : MonoBehaviour
 {
     private Camera mainCam;
     private Vector3 MousePos;
     private Vector3 reference;
+    private Rigidbody rb;
+    private NavMeshAgent agent;
     //private bool aligning;
 
     public float allignTime;
@@ -22,6 +25,8 @@ public class MirrorMover : MonoBehaviour
     private void Awake()
     {
         mainCam = Camera.main;
+        agent = GameObject.Find("Player").GetComponent<NavMeshAgent>();
+        rb = GameObject.Find("Player").GetComponent<Rigidbody>();
     }
 
     // Start is called before the first frame update
@@ -54,11 +59,16 @@ public class MirrorMover : MonoBehaviour
     private void OnMouseDown()
     {
         reference = MousePos;
+        //agent.velocity = Vector3.zero;
+        //rb.velocity = Vector3.zero;
+        rb.isKinematic = false;
+        agent.enabled = false;
     }
 
     private void OnMouseDrag()
     {
         //print("Darg");
+        
         
         if (name.Contains("X"))
         {
@@ -92,5 +102,7 @@ public class MirrorMover : MonoBehaviour
         }
         
         BuildNav.buildNav.Build();
+        rb.isKinematic = true;
+        agent.enabled = true;
     }
 }
