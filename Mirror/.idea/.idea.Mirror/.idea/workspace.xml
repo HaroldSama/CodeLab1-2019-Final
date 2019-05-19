@@ -4,7 +4,8 @@
     <list default="true" id="09fb8b0a-37c6-46a6-a5e9-989b12d0b1df" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Mirror/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Mirror/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MirrorMover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MirrorMover.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/NavMesh-NavMeshHolder.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1/NavMesh-NavMeshHolder.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GhostMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GhostMovement.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,42 +37,43 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/MirorCam.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/MirrorCam.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="-60">
+              <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
               <folding>
-                <marker date="1558060809182" expanded="false" signature="6:78" ph="..." />
-                <marker date="1558060809182" expanded="true" signature="117:1771" ph="{...}" />
-                <marker date="1558060809182" expanded="true" signature="357:407" ph="{...}" />
-                <marker date="1558060809182" expanded="true" signature="465:1769" ph="{...}" />
-                <marker date="1558060809182" expanded="true" signature="892:1139" ph="/* float offsetZ = mainCam.transform.position.z - mirror.transform.position.z; ... */" />
-                <marker date="1558060809182" expanded="true" signature="1263:1409" ph="/* transform.LookAt(mirror.transform); ... */" />
+                <marker date="1558253277912" expanded="false" signature="6:78" ph="..." />
+                <marker date="1558253277912" expanded="true" signature="118:1772" ph="{...}" />
+                <marker date="1558253277912" expanded="true" signature="358:408" ph="{...}" />
+                <marker date="1558253277912" expanded="true" signature="466:1770" ph="{...}" />
+                <marker date="1558253277912" expanded="true" signature="893:1140" ph="/* float offsetZ = mainCam.transform.position.z - mirror.transform.position.z; ... */" />
+                <marker date="1558253277912" expanded="true" signature="1264:1410" ph="/* transform.LookAt(mirror.transform); ... */" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/MirrorMover.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-253">
-              <caret line="62" column="10" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
+            <state relative-caret-position="600">
+              <caret line="64" column="79" selection-start-line="64" selection-start-column="79" selection-end-line="64" selection-end-column="79" />
               <folding>
-                <marker date="1558250911403" expanded="true" signature="6:117" ph="..." />
-                <marker date="1558250911403" expanded="true" signature="181:2822" ph="{...}" />
-                <marker date="1558250911403" expanded="true" signature="498:679" ph="{...}" />
-                <marker date="1558250911403" expanded="true" signature="750:771" ph="{...}" />
-                <marker date="1558250911403" expanded="true" signature="829:1636" ph="{...}" />
-                <marker date="1558250911403" expanded="true" signature="1090:1215" ph="{...}" />
-                <marker date="1558250911403" expanded="true" signature="1225:1336" ph="/* test.transform.position = MousePos; ... */" />
-                <marker date="1558250911403" expanded="true" signature="1501:1630" ph="/* MousePos = Input.mousePosition; ... */" />
-                <marker date="1558250911403" expanded="true" signature="1668:1852" ph="{...}" />
-                <marker date="1558250911403" expanded="true" signature="1713:1783" ph="/* agent.velocity = Vector3.zero; ... */" />
-                <marker date="1558250911403" expanded="true" signature="1884:2141" ph="{...}" />
-                <marker date="1558250911403" expanded="true" signature="1965:2128" ph="{...}" />
-                <marker date="1558250911403" expanded="true" signature="2171:2216" ph="{...}" />
-                <marker date="1558250911403" expanded="true" signature="2278:2820" ph="{...}" />
-                <marker date="1558250911403" expanded="true" signature="2362:2709" ph="{...}" />
+                <marker date="1558254494796" expanded="true" signature="6:117" ph="..." />
+                <marker date="1558254494796" expanded="true" signature="181:2911" ph="{...}" />
+                <marker date="1558254494796" expanded="true" signature="498:679" ph="{...}" />
+                <marker date="1558254494796" expanded="true" signature="750:771" ph="{...}" />
+                <marker date="1558254494796" expanded="true" signature="829:1636" ph="{...}" />
+                <marker date="1558254494796" expanded="true" signature="1090:1215" ph="{...}" />
+                <marker date="1558254494796" expanded="true" signature="1225:1336" ph="/* test.transform.position = MousePos; ... */" />
+                <marker date="1558254494796" expanded="true" signature="1501:1630" ph="/* MousePos = Input.mousePosition; ... */" />
+                <marker date="1558254494796" expanded="true" signature="1668:1941" ph="{...}" />
+                <marker date="1558254494796" expanded="true" signature="1713:1872" ph="/* agent.velocity = Vector3.zero; ... */" />
+                <marker date="1558254494796" expanded="true" signature="1973:2230" ph="{...}" />
+                <marker date="1558254494796" expanded="true" signature="2054:2217" ph="{...}" />
+                <marker date="1558254494796" expanded="true" signature="2260:2305" ph="{...}" />
+                <marker date="1558254494796" expanded="true" signature="2367:2909" ph="{...}" />
+                <marker date="1558254494796" expanded="true" signature="2451:2798" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -80,7 +82,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/NavMeshController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
+            <state relative-caret-position="707">
               <caret line="68" column="50" lean-forward="true" selection-start-line="68" selection-start-column="50" selection-end-line="68" selection-end-column="50" />
               <folding>
                 <marker date="1558248313949" expanded="false" signature="6:114" ph="..." />
@@ -104,8 +106,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/BuildNav.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="32" column="31" lean-forward="true" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+            <state relative-caret-position="435">
+              <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
               <folding>
                 <marker date="1558244247732" expanded="false" signature="6:78" ph="..." />
                 <marker date="1558244247732" expanded="true" signature="139:597" ph="{...}" />
@@ -118,16 +120,33 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ValveMovement.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+              <folding>
+                <marker date="1558257263390" expanded="true" signature="6:134" ph="..." />
+                <marker date="1558257263390" expanded="true" signature="215:950" ph="{...}" />
+                <marker date="1558257263390" expanded="true" signature="310:533" ph="{...}" />
+                <marker date="1558257263390" expanded="true" signature="357:527" ph="/* foreach (var vertex in vertices) ... */" />
+                <marker date="1558257263390" expanded="true" signature="604:625" ph="{...}" />
+                <marker date="1558257263390" expanded="true" signature="683:948" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/GhostMovement.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="21" column="116" lean-forward="true" selection-start-line="21" selection-start-column="116" selection-end-line="21" selection-end-column="116" />
+            <state relative-caret-position="90">
+              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
               <folding>
-                <marker date="1558248131960" expanded="false" signature="6:78" ph="..." />
-                <marker date="1558248131960" expanded="true" signature="122:711" ph="{...}" />
-                <marker date="1558248131960" expanded="true" signature="255:276" ph="{...}" />
-                <marker date="1558248131960" expanded="true" signature="334:709" ph="{...}" />
+                <marker date="1558253946341" expanded="false" signature="6:78" ph="..." />
+                <marker date="1558253946341" expanded="true" signature="122:712" ph="{...}" />
+                <marker date="1558253946341" expanded="true" signature="256:277" ph="{...}" />
+                <marker date="1558253946341" expanded="true" signature="335:710" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -140,27 +159,30 @@
     <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MirorCam.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MirrorCam.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NavMeshController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BuildNav.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ValveMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Examples/Editor/NavMeshComponentsExamplesEditor.asmdef" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Visual Systems Spring 2019/Homework7/Perspective/Assets/Scripts/MirorCam.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Test/ProjectSettings/TimeManager.asset" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NavMeshController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MirrorMover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GhostMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BuildNav.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../CodeLab1-2019-HW10/Homework10/Assets/Scripts/MouseDragger.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Examples/Editor/NavMeshComponentsExamplesEditor.asmdef" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../NavMeshComponents/Assets/Script/NavMeshController.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/MirorCam.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NavMeshController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MirrorCam.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BuildNav.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GhostMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/NavMeshController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MirrorMover.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ValveMovement.cs" />
       </list>
     </option>
   </component>
@@ -270,11 +292,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558248660223</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fall off">
+      <created>1558251193090</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1558251193090</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31175000" />
+    <option name="totallyTimeSpent" value="37225000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -287,6 +316,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -303,7 +333,7 @@
       <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Performance Profiler" order="8" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="10" visible="true" weight="0.27193934" />
+      <window_info anchor="bottom" id="Version Control" order="10" visible="true" weight="0.27193934" />
       <window_info anchor="bottom" id="Unity" order="11" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Unit Tests" order="13" weight="0.32936078" />
@@ -355,7 +385,8 @@
     <MESSAGE value="Mirror Dragger" />
     <MESSAGE value="NavMesh controller" />
     <MESSAGE value="Perfect Ghost" />
-    <option name="LAST_COMMIT_MESSAGE" value="Perfect Ghost" />
+    <MESSAGE value="Fall off" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fall off" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -398,37 +429,10 @@
     <entry file="file://$PROJECT_DIR$/../../NavMeshComponents/Assets/Script/NavMeshController.cs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MirorCam.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1558060809182" expanded="false" signature="6:78" ph="..." />
-            <marker date="1558060809182" expanded="true" signature="117:1771" ph="{...}" />
-            <marker date="1558060809182" expanded="true" signature="357:407" ph="{...}" />
-            <marker date="1558060809182" expanded="true" signature="465:1769" ph="{...}" />
-            <marker date="1558060809182" expanded="true" signature="892:1139" ph="/* float offsetZ = mainCam.transform.position.z - mirror.transform.position.z; ... */" />
-            <marker date="1558060809182" expanded="true" signature="1263:1409" ph="/* transform.LookAt(mirror.transform); ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GhostMovement.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="116" lean-forward="true" selection-start-line="21" selection-start-column="116" selection-end-line="21" selection-end-column="116" />
-          <folding>
-            <marker date="1558248131960" expanded="false" signature="6:78" ph="..." />
-            <marker date="1558248131960" expanded="true" signature="122:711" ph="{...}" />
-            <marker date="1558248131960" expanded="true" signature="255:276" ph="{...}" />
-            <marker date="1558248131960" expanded="true" signature="334:709" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/BuildNav.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="32" column="31" lean-forward="true" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+        <state relative-caret-position="435">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
           <folding>
             <marker date="1558244247732" expanded="false" signature="6:78" ph="..." />
             <marker date="1558244247732" expanded="true" signature="139:597" ph="{...}" />
@@ -442,7 +446,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/NavMeshController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
+        <state relative-caret-position="707">
           <caret line="68" column="50" lean-forward="true" selection-start-line="68" selection-start-column="50" selection-end-line="68" selection-end-column="50" />
           <folding>
             <marker date="1558248313949" expanded="false" signature="6:114" ph="..." />
@@ -464,24 +468,67 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/MirrorMover.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-253">
-          <caret line="62" column="10" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
+        <state relative-caret-position="600">
+          <caret line="64" column="79" selection-start-line="64" selection-start-column="79" selection-end-line="64" selection-end-column="79" />
           <folding>
-            <marker date="1558250911403" expanded="true" signature="6:117" ph="..." />
-            <marker date="1558250911403" expanded="true" signature="181:2822" ph="{...}" />
-            <marker date="1558250911403" expanded="true" signature="498:679" ph="{...}" />
-            <marker date="1558250911403" expanded="true" signature="750:771" ph="{...}" />
-            <marker date="1558250911403" expanded="true" signature="829:1636" ph="{...}" />
-            <marker date="1558250911403" expanded="true" signature="1090:1215" ph="{...}" />
-            <marker date="1558250911403" expanded="true" signature="1225:1336" ph="/* test.transform.position = MousePos; ... */" />
-            <marker date="1558250911403" expanded="true" signature="1501:1630" ph="/* MousePos = Input.mousePosition; ... */" />
-            <marker date="1558250911403" expanded="true" signature="1668:1852" ph="{...}" />
-            <marker date="1558250911403" expanded="true" signature="1713:1783" ph="/* agent.velocity = Vector3.zero; ... */" />
-            <marker date="1558250911403" expanded="true" signature="1884:2141" ph="{...}" />
-            <marker date="1558250911403" expanded="true" signature="1965:2128" ph="{...}" />
-            <marker date="1558250911403" expanded="true" signature="2171:2216" ph="{...}" />
-            <marker date="1558250911403" expanded="true" signature="2278:2820" ph="{...}" />
-            <marker date="1558250911403" expanded="true" signature="2362:2709" ph="{...}" />
+            <marker date="1558254494796" expanded="true" signature="6:117" ph="..." />
+            <marker date="1558254494796" expanded="true" signature="181:2911" ph="{...}" />
+            <marker date="1558254494796" expanded="true" signature="498:679" ph="{...}" />
+            <marker date="1558254494796" expanded="true" signature="750:771" ph="{...}" />
+            <marker date="1558254494796" expanded="true" signature="829:1636" ph="{...}" />
+            <marker date="1558254494796" expanded="true" signature="1090:1215" ph="{...}" />
+            <marker date="1558254494796" expanded="true" signature="1225:1336" ph="/* test.transform.position = MousePos; ... */" />
+            <marker date="1558254494796" expanded="true" signature="1501:1630" ph="/* MousePos = Input.mousePosition; ... */" />
+            <marker date="1558254494796" expanded="true" signature="1668:1941" ph="{...}" />
+            <marker date="1558254494796" expanded="true" signature="1713:1872" ph="/* agent.velocity = Vector3.zero; ... */" />
+            <marker date="1558254494796" expanded="true" signature="1973:2230" ph="{...}" />
+            <marker date="1558254494796" expanded="true" signature="2054:2217" ph="{...}" />
+            <marker date="1558254494796" expanded="true" signature="2260:2305" ph="{...}" />
+            <marker date="1558254494796" expanded="true" signature="2367:2909" ph="{...}" />
+            <marker date="1558254494796" expanded="true" signature="2451:2798" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GhostMovement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding>
+            <marker date="1558253946341" expanded="false" signature="6:78" ph="..." />
+            <marker date="1558253946341" expanded="true" signature="122:712" ph="{...}" />
+            <marker date="1558253946341" expanded="true" signature="256:277" ph="{...}" />
+            <marker date="1558253946341" expanded="true" signature="335:710" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MirrorCam.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+          <folding>
+            <marker date="1558253277912" expanded="false" signature="6:78" ph="..." />
+            <marker date="1558253277912" expanded="true" signature="118:1772" ph="{...}" />
+            <marker date="1558253277912" expanded="true" signature="358:408" ph="{...}" />
+            <marker date="1558253277912" expanded="true" signature="466:1770" ph="{...}" />
+            <marker date="1558253277912" expanded="true" signature="893:1140" ph="/* float offsetZ = mainCam.transform.position.z - mirror.transform.position.z; ... */" />
+            <marker date="1558253277912" expanded="true" signature="1264:1410" ph="/* transform.LookAt(mirror.transform); ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ValveMovement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <folding>
+            <marker date="1558257263390" expanded="true" signature="6:134" ph="..." />
+            <marker date="1558257263390" expanded="true" signature="215:950" ph="{...}" />
+            <marker date="1558257263390" expanded="true" signature="310:533" ph="{...}" />
+            <marker date="1558257263390" expanded="true" signature="357:527" ph="/* foreach (var vertex in vertices) ... */" />
+            <marker date="1558257263390" expanded="true" signature="604:625" ph="{...}" />
+            <marker date="1558257263390" expanded="true" signature="683:948" ph="{...}" />
           </folding>
         </state>
       </provider>

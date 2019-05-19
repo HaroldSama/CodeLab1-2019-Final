@@ -7,6 +7,7 @@ public class GhostMovement : MonoBehaviour
     public GameObject origin;
 
     public GameObject mirror;
+
     // Start is called before the first frame update
     void Start()
     {
