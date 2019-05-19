@@ -10,10 +10,21 @@ public class NavMeshController : MonoBehaviour
     //private Vector3 oldDest;
 
     private NavMeshAgent agent;
+
+    private Animator anim;
+    private Rigidbody rb;
+
+    private void Awake()
+    {
+        anim = GetComponent<Animator>();
+        agent = GetComponent<NavMeshAgent>();
+        rb = GetComponent<Rigidbody>();
+    }
+
     // Start is called before the first frame update
     void Start()
     {
-        agent = GetComponent<NavMeshAgent>();
+        
         //agent.SetDestination(destination);
 
         //oldDest = destination;
@@ -39,8 +50,19 @@ public class NavMeshController : MonoBehaviour
             {
                 //destination = hit.point;
                 //print("go");
+                //agent.updatePosition = false;
+                //agent.updateRotation = false;
                 agent.SetDestination(hit.point);
             }
+        }
+
+        if (agent.velocity.magnitude > 0)
+        {
+            anim.SetBool("IsWalking", true);
+        }
+        else
+        {
+            anim.SetBool("IsWalking", false);
         }
     }
 }

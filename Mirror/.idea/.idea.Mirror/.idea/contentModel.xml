@@ -203,6 +203,8 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="BuildNav.cs" t="Include" />
+          <e p="GhostMovement.cs" t="Include" />
           <e p="MirorCam.cs" t="Include" />
           <e p="MirrorMover.cs" t="Include" />
           <e p="NavMeshController.cs" t="Include" />

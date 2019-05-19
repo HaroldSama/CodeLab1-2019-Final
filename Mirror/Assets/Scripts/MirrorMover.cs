@@ -89,6 +89,8 @@ public class MirrorMover : MonoBehaviour
             timer++;
             
             yield return 0;
-        }  
+        }
+        
+        BuildNav.buildNav.Build();
     }
 }
