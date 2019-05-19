@@ -12,11 +12,13 @@ public class NavMeshController : MonoBehaviour
     private NavMeshAgent agent;
 
     private Animator anim;
+    private Animator animGhost;
     private Rigidbody rb;
 
     private void Awake()
     {
         anim = GetComponent<Animator>();
+        animGhost = GameObject.Find("Player Ghost").GetComponent<Animator>();
         agent = GetComponent<NavMeshAgent>();
         rb = GetComponent<Rigidbody>();
     }
@@ -59,10 +61,12 @@ public class NavMeshController : MonoBehaviour
         if (agent.velocity.magnitude > 0)
         {
             anim.SetBool("IsWalking", true);
+            animGhost.SetBool("IsWalking", true);
         }
         else
         {
             anim.SetBool("IsWalking", false);
+            animGhost.SetBool("IsWalking", false);
         }
     }
 }

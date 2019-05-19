@@ -19,5 +19,6 @@ public class GhostMovement : MonoBehaviour
         Plane mirrorPlane = new Plane(mirror.transform.forward, mirror.transform.position);
         Vector3 center = mirrorPlane.ClosestPointOnPlane(origin.transform.position);
         transform.position = center * 2 - origin.transform.position;
+        transform.rotation = Quaternion.LookRotation(Vector3.Reflect(origin.transform.forward, mirrorPlane.normal));
     }
 }
