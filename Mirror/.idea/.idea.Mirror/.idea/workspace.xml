@@ -1,529 +1,251 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09fb8b0a-37c6-46a6-a5e9-989b12d0b1df" name="Default Changelist" comment="Mirage effect">
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Materials/Alternates/PolygonTown_01_B.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Materials/Alternates/PolygonTown_01_C.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Materials/Alternates/PolygonTown_03_B.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Materials/Misc.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Materials/Misc/Base_Glass.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Materials/Misc/Ground.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_Chimney_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_House_DeckRail_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_House_Deck_03.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_House_Deck_Post_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_House_Deck_Roof_02Shape.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_House_Deck_Roof_03.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_House_ExteriorWall_GroundFloor_03.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_House_ExteriorWall_GroundFloor_Door_02.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_House_ExteriorWall_GroundFloor_Garage_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_House_ExteriorWall_GroundFloor_Window_02.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_House_ExteriorWall_UpperFloor_Corner_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_House_ExteriorWall_UpperFloor_Corner_02.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_House_ExteriorWall_UpperFloor_Corner_04.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_House_Garage_Floor_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_House_InteriorWall_03.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_House_InteriorWall_Cap_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_House_InteriorWall_Corner_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_House_InteriorWall_Door_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_House_InteriorWall_UpperFloorFiller_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_House_Interior_Rail_02.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_House_Interior_Rail_04.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_House_Interior_StairsRail_02.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_House_Interior_StairsRail_03.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_House_Interior_StairsRail_Left_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_House_Interior_StairsRail_Post_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_House_Interior_StairsSide_Right_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_House_Interior_StairsWall_Right_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_House_Interior_Stairs_02.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_House_Interior_Stairs_02.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_House_Interior_Stairs_Ceiling_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_House_Interior_Stairs_Ceiling_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_House_Interior_Stairs_WallGap_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_House_InternalWall_Garage_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_House_InternalWall_Garage_Door_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_House_Preset_09.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_House_Preset_10.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_House_Preset_11.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_House_Preset_11.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_House_Roof_Angled_Cap_02.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_House_Roof_Angled_Cap_Corner_Short_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_House_Roof_Angled_Cap_Short_02.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_House_Roof_Angled_Cap_Short_02.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_House_Roof_Angled_Corner_Middle_02.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_House_Roof_Angled_Gutter_03.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_House_Roof_Angled_Middle_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_House_Roof_Angled_Middle_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_House_Roof_End_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_House_Roof_End_04.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_House_Roof_FlatLip_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_House_Roof_Window_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_House_Wall_GarageDoor_02.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_House_Window_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_House_Window_05.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_Shop_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_Shop_03.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_Shop_Concrete_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_Shop_Sign_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_Shop_Sign_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Buildings/SM_Bld_Skylight_02.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Environment/SM_Env_Bush_03.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Environment/SM_Env_Driveway_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Environment/SM_Env_Driveway_PathLeft_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Environment/SM_Env_Fence_White_Gate_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Environment/SM_Env_Fence_Wood_Gate_01.fbm.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Environment/SM_Env_Fence_Wood_Post_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Environment/SM_Env_Fence_Wood_Post_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Environment/SM_Env_FlowerPatch_02.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Environment/SM_Env_FlowerPatch_03.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Environment/SM_Env_FlowerPatch_03.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Environment/SM_Env_Garden_Corner_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Environment/SM_Env_Garden_Corner_02.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Environment/SM_Env_Garden_End_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Environment/SM_Env_Garden_Straight_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Environment/SM_Env_Gardenbox_Single_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Environment/SM_Env_Grass_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Environment/SM_Env_Grass_Edge_02.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Environment/SM_Env_Grass_Edge_03.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Environment/SM_Env_Grass_Patch_03.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Environment/SM_Env_Hedge_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Environment/SM_Env_Hedge_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Environment/SM_Env_Hedge_02.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Environment/SM_Env_PathBlock_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Environment/SM_Env_PathRight_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Environment/SM_Env_Path_02.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Environment/SM_Env_Plant_Carrot_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Environment/SM_Env_Plant_Onion_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Environment/SM_Env_Plant_Tomato_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Environment/SM_Env_Road_Crossing_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Environment/SM_Env_Road_SpeedBump_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Environment/SM_Env_Sidewalk_Corner_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Environment/SM_Env_Sidewalk_Corner_End_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Environment/SM_Env_Sidewalk_Corner_End_03.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Environment/SM_Env_Sidewalk_Driveway_Wide_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Environment/SM_Env_Sidewalk_Straight_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Environment/SM_Env_Sidewalk_Straight_04.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Environment/SM_Env_Sidewalk_Straight_08.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Environment/SM_Env_Tree_02.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Environment/SM_Env_Tree_03_Framed.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Generic.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Generic/SM_Generic_Cloud_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Generic/SM_Generic_Cloud_02.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Generic/SM_Generic_Cloud_03.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Generic/SM_Generic_Ground_02.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Generic/SM_Generic_Ground_03.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Generic/SM_Generic_Ground_04.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Generic/SM_Generic_Ground_Flat_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Generic/SM_Generic_Mountains_Grass_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Generic/SM_Generic_Mountains_Grass_02.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Generic/SM_Generic_Mountains_Snow_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Generic/SM_Generic_Small_Rocks_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Generic/SM_Generic_Small_Rocks_03.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Generic/SM_Generic_TreeStump_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Generic/SM_Generic_Tree_Patch_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Generic/SM_Gerneric_Grass_Patch_03.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Generic/SM_Gerneric_Grass_Patch_03.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Items/SM_Item_BeerCup_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Items/SM_Item_Boxcutter_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Items/SM_Item_Bread_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Items/SM_Item_Brush_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Items/SM_Item_Corn_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Items/SM_Item_Cup_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Items/SM_Item_Cutlery_Fork_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Items/SM_Item_Cutlery_Spoon_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Items/SM_Item_Cutlery_Spoon_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Items/SM_Item_Drink_02.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Items/SM_Item_Drink_Glass_02.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Items/SM_Item_Drink_Glass_02.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Items/SM_Item_Frisbee_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Items/SM_Item_Garden_Trowel_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Items/SM_Item_Garden_Trowel_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Items/SM_Item_GlassCup_02.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Items/SM_Item_Hacksaw_02.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Items/SM_Item_JuiceJug_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Items/SM_Item_Mouthwash_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Items/SM_Item_ToiletRoll_02.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Items/SM_Item_Toothpaste_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Airvent_Flat_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Art_04.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Barbeque_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Bath_02.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Bath_02.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_BathroomRug_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Bed_Double_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Bed_Double_02.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Bed_Double_03.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Bed_Single_02.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_BedsideTable_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_BikeStand_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_BikeStand_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Book_03.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Book_Group_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Book_Group_06.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Book_Group_08.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Book_Group_08.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_BreadBin_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Cabinet_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Candles_03.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_CardboardBox_04.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_CeilingLight_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Cheese_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Computer_Keyboard_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Computer_Screen_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Couch_02.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Couch_03.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Couch_03.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Cushion_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Desk_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_DiningChair_03.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Dresser_03.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Fireplace_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_FloorMat_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_ForSaleSign_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_FridgeDrinks_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_FruitBowl_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Game_Console_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Game_Console_03.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Gaspump_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_GlassesStand_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_GlassesStand_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Globe_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Heater_02.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Keg_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_KitchenCabinet_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_KitchenCabinet_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Kitchen_CounterSink_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Kitchen_Counter_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Kitchen_Fridge_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Kitchen_Fridge_02.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Ladder_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_LampStanding_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Lamp_02.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Lamp_03.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_LaundryBox_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Laundry_WasherTop_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_LetterBox_03.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Mirror_02.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Outdoor_Light_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Outdoor_Table_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Oven_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Pillow_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Pillow_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Plant_02.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Plate_02.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Playground_Fort_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Playground_Swing_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Pool_Child_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_PotPlant_02.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Pot_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Pot_03.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Pot_07.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_PowerPlug_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Propane_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Propane_Tall_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Propane_Tall_02.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_RubbishBin_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_RubbishBin_02.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Rug_02.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Rug_03.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_SandBucket_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Sandpit_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_SatelliteDish_02.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_SecurityLights_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Shelf_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_ShopFridge_02.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Sign_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Sprinkler_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_StreetSign_05.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_StreetSign_Pole_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Streetlamp_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_ToiletBrush_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Toilet_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_ToolBoard_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_ToolBoard_01_Combined.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_ToolCabinet_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_TowelRack_02.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_ToyBlock_03.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_TrashBag_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_VendingMachine_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_WallLight_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Wardrobe_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_Wardrobe_02.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Props/SM_Prop_WorkShelf_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Vehicles/SM_Veh_Bus_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Models/Vehicles/SM_Veh_Truck_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Buildings/Presets/SM_Bld_House_Preset_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Buildings/Presets/SM_Bld_House_Preset_03.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Buildings/Presets/SM_Bld_House_Preset_05.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Buildings/Presets/SM_Bld_House_Preset_10.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Buildings/SM_Bld_Chimney_02.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Buildings/SM_Bld_Church_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Buildings/SM_Bld_House_DeckSteps_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Buildings/SM_Bld_House_Deck_End_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Buildings/SM_Bld_House_Deck_Roof_InnerCorner_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Buildings/SM_Bld_House_DrainPipe_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Buildings/SM_Bld_House_ExteriorWall_GarageDoor_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Buildings/SM_Bld_House_ExteriorWall_GarageDoor_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Buildings/SM_Bld_House_ExteriorWall_GroundFloor_Window_03.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Buildings/SM_Bld_House_ExteriorWall_UpperFloor_02.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Buildings/SM_Bld_House_ExteriorWall_UpperFloor_03.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Buildings/SM_Bld_House_ExteriorWall_UpperFloor_04.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Buildings/SM_Bld_House_ExteriorWall_UpperFloor_Window_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Buildings/SM_Bld_House_ExteriorWall_UpperFloor_Window_03.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Buildings/SM_Bld_House_InteriorWall_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Buildings/SM_Bld_House_InteriorWall_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Buildings/SM_Bld_House_InteriorWall_03.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Buildings/SM_Bld_House_InteriorWall_Corner_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Buildings/SM_Bld_House_Interior_Rail_02.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Buildings/SM_Bld_House_Interior_StairsRail_02.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Buildings/SM_Bld_House_Interior_StairsRail_Left_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Buildings/SM_Bld_House_Interior_StairsRail_Right_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Buildings/SM_Bld_House_Interior_StairsWall_Left_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Buildings/SM_Bld_House_Interior_Stairs_02.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Buildings/SM_Bld_House_Interior_Stairs_WallGap_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Buildings/SM_Bld_House_InternalWall_Garage_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Buildings/SM_Bld_House_InternalWall_Garage_Door_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Buildings/SM_Bld_House_Roof_Angled_Cap_Corner_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Buildings/SM_Bld_House_Roof_Angled_Cap_Corner_Short_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Buildings/SM_Bld_House_Roof_Angled_Corner_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Buildings/SM_Bld_House_Roof_Angled_Corner_Middle_02.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Buildings/SM_Bld_House_Roof_Angled_Middle_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Buildings/SM_Bld_House_Roof_EndCap_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Buildings/SM_Bld_House_Roof_FlatLip_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Buildings/SM_Bld_House_Roof_FlatLip_Corner_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Buildings/SM_Bld_House_Roof_Window_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Buildings/SM_Bld_House_Window_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Buildings/SM_Bld_House_Window_02.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Buildings/SM_Bld_House_Window_03.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Buildings/SM_Bld_House_Window_05.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Buildings/SM_Bld_House_Window_Blinds_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Buildings/SM_Bld_House_Window_Curtains_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Buildings/SM_Bld_House_Window_Shutters_Closed_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Buildings/SM_Bld_Shop_02.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Buildings/SM_Bld_Shop_Concrete_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Buildings/SM_Bld_Skylight_02.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Characters/Character_Mother_02.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Characters/Character_SchoolBoy_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Characters/Character_ShopKeeper_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Environment.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Environment/SM_Env_Bush_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Environment/SM_Env_Bush_03.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Environment/SM_Env_Concrete_Base_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Environment/SM_Env_DirtPatch_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Environment/SM_Env_Driveway_PathLeft_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Environment/SM_Env_Driveway_PathRight_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Environment/SM_Env_Fence_White_Post_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Environment/SM_Env_Fence_Wood_Gate_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Environment/SM_Env_Fence_Wood_Gate_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Environment/SM_Env_FlowerPatch_03.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Environment/SM_Env_Gardenbox_Single_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Environment/SM_Env_Grass_02.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Environment/SM_Env_Grass_Edge_02.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Environment/SM_Env_Grass_Edge_02.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Environment/SM_Env_Grass_Patch_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Environment/SM_Env_Grass_Patch_02.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Environment/SM_Env_Grass_Patch_03.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Environment/SM_Env_Hedge_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Environment/SM_Env_Hedge_02.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Environment/SM_Env_Hedge_03.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Environment/SM_Env_PathRight_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Environment/SM_Env_Path_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Environment/SM_Env_Plant_Onion_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Environment/SM_Env_Plant_Pumpkin_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Environment/SM_Env_Plant_Vege_02.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Environment/SM_Env_Road_Crossing_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Environment/SM_Env_Sidewalk_Corner_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Environment/SM_Env_Sidewalk_Corner_03.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Environment/SM_Env_Sidewalk_Corner_04.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Environment/SM_Env_Sidewalk_Corner_05.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Environment/SM_Env_Sidewalk_Corner_End_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Environment/SM_Env_Sidewalk_Crossing_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Environment/SM_Env_Sidewalk_Crossing_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Environment/SM_Env_Sidewalk_Driveway_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Environment/SM_Env_Sidewalk_Driveway_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Environment/SM_Env_Sidewalk_Driveway_Wide_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Environment/SM_Env_Sidewalk_Straight_02.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Environment/SM_Env_Sidewalk_Straight_02.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Environment/SM_Env_Sidewalk_Straight_Path_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Environment/SM_Env_Tree_02.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Environment/SM_Env_Tree_DirtPile_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Environment/SM_Env_Tree_Large_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Environment/SM_Env_Tree_Pine_02.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Generic.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Generic/SM_Generic_Cloud_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Generic/SM_Generic_Cloud_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Generic/SM_Generic_Cloud_05.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Generic/SM_Generic_Mountains_Grass_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Generic/SM_Generic_Mountains_Grass_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Generic/SM_Generic_Mountains_Snow_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Generic/SM_Generic_Small_Rocks_02.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Generic/SM_Generic_Small_Rocks_03.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Generic/SM_Generic_TreeStump_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Generic/SM_Generic_Tree_02.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Generic/SM_Generic_Tree_03.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Items/SM_Item_Alcohol_02.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Items/SM_Item_Ball_American_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Items/SM_Item_Ball_Soccer_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Items/SM_Item_Ball_Soccer_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Items/SM_Item_Bread_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Items/SM_Item_Brush_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Items/SM_Item_Can_02.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Items/SM_Item_Cup_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Items/SM_Item_Cutlery_Fork_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Items/SM_Item_Drink_04.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Items/SM_Item_Drink_Glass_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Items/SM_Item_Garden_Trowel_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Items/SM_Item_Hammer_02.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Items/SM_Item_JuiceJug_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Items/SM_Item_Mallet_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Items/SM_Item_Mug_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Items/SM_Item_Onion_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Items/SM_Item_Sausage_Cooked_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Items/SM_Item_Scrapper_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Items/SM_Item_Scrapper_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Items/SM_Item_Screwdriver_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Items/SM_Item_Soap_02.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Items/SM_Item_Spanner_02.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Items/SM_Item_ToiletRoll_02.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Items/SM_Item_ToiletRoll_03.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Items/SM_Item_Toothbrush_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Items/SM_Item_Toothpaste_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_AirVent_03.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Antenna_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Art_05.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Art_08.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Art_Standing_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Art_Standing_02.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_BabyCot_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Bath_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_BathroomRug_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_BathroomSink_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Bed_Double_03.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Bed_Single_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Bed_Single_03.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Book_Group_06.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Book_Group_07.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Book_Group_09.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Book_Group_09.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Bookshelf_02.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Candles_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Candles_02.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_CardboardBox_02.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_CardboardBox_02.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_CardboardBox_04.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_CardboardBox_05.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_CeilingLight_06.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Chair_02.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Chair_04.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Clock_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Clock_02.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_CoffeeTable_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Compost_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Computer_Keyboard_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Computer_Screen_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_CookingPot_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Couch_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Couch_04.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_CuttingBoard_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Deckchair_02.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Deckchair_03.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_DeskChair_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_DeskChair_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Desk_02.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_DiningChair_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_DiningChair_03.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_DiningTable_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Drain_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Dresser_01_Combined.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Fireplace_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Flamingo_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Flowers_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_ForSaleSign_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Game_Console_03.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Gaspump_Cover_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_GlassesStand_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Heater_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_HoseReel_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_HotdogHeater_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Jar_02.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Keg_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Kitchen_CounterCorner_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Kitchen_CounterEnd_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Kitchen_CounterWashing_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Kitchen_Counter_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Kitchen_Counter_02.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Kitchen_Fridge_02.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Laundry_Pile_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Laundry_WasherTop_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_LetterBox_02.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Lightswitch_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Mirror_02.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_OutdoorOven_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Outdoor_Heater_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Outdoor_Heater_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Outdoor_Table_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_ParkBench_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Pillow_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Pillow_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Plate_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Plate_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Playground_Roundabout_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Playground_Table_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Pool_Aboveground_01 (1).prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Pool_DivingBoard_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Pool_Float_Ring_03.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_PotPlant_02.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_PotPlant_05.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Pot_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Pot_02.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Pot_04.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Pot_04.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Pot_06.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Pot_07.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Propane_Tall_02.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Propanel_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_RubbishBin_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_RubbishBin_Small_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Rug_03.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Scales_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Shelf_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Shelf_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_ShopCounter_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_ShopShelf_Wall_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Sprinkler_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Stereo_Speaker_Tall_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_StreetSign_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_TVCabinet_02.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Television_DVD_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Television_Flat_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Television_Remote_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Television_Remote_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_ToolBoard_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_ToolBoard_01_Combined.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_ToolCabinet_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_ToyBlock_02.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Trampoline_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Wardrobe_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Wardrobe_01_Combined.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Props/SM_Prop_Workbench_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Vehicles/SM_Veh_Bus_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Vehicles/SM_Veh_Pickup_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Vehicles/SM_Veh_SchoolBus_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Prefabs/Vehicles/SM_Veh_Truck_Garbage_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Scenes/Demo.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Textures/Alternates/PolygonTown_Texture_01_B.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Textures/Alternates/PolygonTown_Texture_03_C.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Textures/Misc/PolygonTown_Road_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Textures/Misc/PolygonTown_Road_Normal.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Textures/Misc/PolygonTown_Texture_Normal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Textures/Misc/PolygonTown_Texture_Normal_A.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Textures/Misc/PolygonTown_Texture_Normal_C.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Textures/Misc/PolygonTown_Window_Normal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Textures/PolygonTown_Texture_01_A.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Textures/PolygonTown_Texture_01_A.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Textures/PolygonTown_Texture_03_A.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonTown/Textures/PolygonTown_Texture_04_A.png" afterDir="false" />
+    <list default="true" id="09fb8b0a-37c6-46a6-a5e9-989b12d0b1df" name="Default Changelist" comment="Reoganize">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Mirror/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Mirror/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/About/Images/Banner.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/About/Images/Banner.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/About/Images/Banner_Hover.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/About/Images/Banner_Hover.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/About/Images/Banner_Normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/About/Images/Banner_Normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/About/Images/DownloadPB_Hover.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/About/Images/DownloadPB_Hover.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/About/Images/DownloadPB_Normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/About/Images/DownloadPB_Normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/About/Images/ScrollBackground_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/About/Images/ScrollBackground_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/About/Images/ScrollBackground_Pro.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/About/Images/ScrollBackground_Pro.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Data/ProBuilderPreferences.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Data/ProBuilderPreferences.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Modes/Mode_Edge.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Modes/Mode_Edge.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Modes/Mode_Edge_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Modes/Mode_Edge_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Modes/Mode_Face.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Modes/Mode_Face.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Modes/Mode_Face_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Modes/Mode_Face_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Modes/Mode_Object.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Modes/Mode_Object.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Modes/Mode_Object_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Modes/Mode_Object_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Modes/Mode_Vertex.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Modes/Mode_Vertex.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Modes/Mode_Vertex_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Modes/Mode_Vertex_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/AltButton_Hover.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/AltButton_Hover.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/AltButton_Normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/AltButton_Normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/AltButton_Pressed.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/AltButton_Pressed.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/AccentBar_Bottom.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/AccentBar_Bottom.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Circle-22px_Hover.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Circle-22px_Hover.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Circle-22px_Hover_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Circle-22px_Hover_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Circle-22px_Normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Circle-22px_Normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Circle-22px_Normal_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Circle-22px_Normal_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Circle-22px_Pressed.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Circle-22px_Pressed.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Circle-22px_Pressed_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Circle-22px_Pressed_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Geo_Hover_Horizontal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Geo_Hover_Horizontal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Geo_Hover_Horizontal_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Geo_Hover_Horizontal_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Geo_Hover_Vertical.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Geo_Hover_Vertical.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Geo_Hover_Vertical_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Geo_Hover_Vertical_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Geo_Normal_Horizontal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Geo_Normal_Horizontal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Geo_Normal_Horizontal_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Geo_Normal_Horizontal_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Geo_Normal_Vertical.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Geo_Normal_Vertical.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Geo_Normal_Vertical_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Geo_Normal_Vertical_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Geo_Pressed_Horizontal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Geo_Pressed_Horizontal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Geo_Pressed_Horizontal_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Geo_Pressed_Horizontal_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Geo_Pressed_Vertical.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Geo_Pressed_Vertical.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Geo_Pressed_Vertical_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Geo_Pressed_Vertical_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Object_Hover_Horizontal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Object_Hover_Horizontal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Object_Hover_Horizontal_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Object_Hover_Horizontal_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Object_Hover_Vertical.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Object_Hover_Vertical.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Object_Hover_Vertical_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Object_Hover_Vertical_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Object_Normal_Horizontal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Object_Normal_Horizontal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Object_Normal_Horizontal_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Object_Normal_Horizontal_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Object_Normal_Vertical.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Object_Normal_Vertical.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Object_Normal_Vertical_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Object_Normal_Vertical_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Object_Pressed_Horizontal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Object_Pressed_Horizontal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Object_Pressed_Horizontal_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Object_Pressed_Horizontal_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Object_Pressed_Vertical.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Object_Pressed_Vertical.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Object_Pressed_Vertical_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Object_Pressed_Vertical_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Hover.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Hover.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Hover_Blue.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Hover_Blue.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Hover_BlueSteel.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Hover_BlueSteel.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Hover_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Hover_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Hover_Orange.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Hover_Orange.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Normal_Blue.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Normal_Blue.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Normal_BlueSteel.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Normal_BlueSteel.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Normal_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Normal_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Normal_Orange.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Normal_Orange.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Pressed.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Pressed.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Pressed_Blue.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Pressed_Blue.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Pressed_BlueSteel.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Pressed_BlueSteel.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Pressed_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Pressed_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Pressed_Orange.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/RoundedRect_Pressed_Orange.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Selection_Hover_Horizontal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Selection_Hover_Horizontal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Selection_Hover_Horizontal_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Selection_Hover_Horizontal_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Selection_Hover_Vertical.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Selection_Hover_Vertical.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Selection_Hover_Vertical_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Selection_Hover_Vertical_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Selection_Normal_Horizontal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Selection_Normal_Horizontal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Selection_Normal_Horizontal_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Selection_Normal_Horizontal_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Selection_Normal_Vertical.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Selection_Normal_Vertical.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Selection_Normal_Vertical_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Selection_Normal_Vertical_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Selection_Pressed_Horizontal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Selection_Pressed_Horizontal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Selection_Pressed_Horizontal_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Selection_Pressed_Horizontal_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Selection_Pressed_Vertical.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Selection_Pressed_Vertical.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Selection_Pressed_Vertical_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Selection_Pressed_Vertical_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Tool_Hover_Horizontal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Tool_Hover_Horizontal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Tool_Hover_Horizontal_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Tool_Hover_Horizontal_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Tool_Hover_Vertical.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Tool_Hover_Vertical.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Tool_Hover_Vertical_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Tool_Hover_Vertical_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Tool_Normal_Horizontal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Tool_Normal_Horizontal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Tool_Normal_Horizontal_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Tool_Normal_Horizontal_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Tool_Normal_Vertical.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Tool_Normal_Vertical.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Tool_Normal_Vertical_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Tool_Normal_Vertical_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Tool_Pressed_Horizontal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Tool_Pressed_Horizontal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Tool_Pressed_Horizontal_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Tool_Pressed_Horizontal_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Tool_Pressed_Vertical.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Tool_Pressed_Vertical.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Tool_Pressed_Vertical_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Background/Tool_Pressed_Vertical_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Bezier_Aligned.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Bezier_Aligned.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Bezier_Free.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Bezier_Free.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Bezier_Mirrored.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Bezier_Mirrored.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Button_Hover.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Button_Hover.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Button_Hover_Horizontal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Button_Hover_Horizontal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Button_Normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Button_Normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Button_Normal_Horizontal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Button_Normal_Horizontal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Button_Pressed.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Button_Pressed.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Button_Pressed_Horizontal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Button_Pressed_Horizontal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Edge_Bevel.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Edge_Bevel.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Edge_Bevel_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Edge_Bevel_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Edge_Bridge.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Edge_Bridge.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Edge_Bridge_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Edge_Bridge_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Edge_Connect.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Edge_Connect.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Edge_Connect_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Edge_Connect_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Edge_Extrude.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Edge_Extrude.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Edge_Extrude_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Edge_Extrude_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Edge_FillHole.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Edge_FillHole.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Edge_FillHole_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Edge_FillHole_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Edge_InsertLoop.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Edge_InsertLoop.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Edge_InsertLoop_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Edge_InsertLoop_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Edge_Subdivide.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Edge_Subdivide.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Edge_Subdivide_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Edge_Subdivide_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ExtrudeFace_FaceNormals.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ExtrudeFace_FaceNormals.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ExtrudeFace_FaceNormals_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ExtrudeFace_FaceNormals_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ExtrudeFace_Individual.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ExtrudeFace_Individual.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ExtrudeFace_Individual_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ExtrudeFace_Individual_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ExtrudeFace_VertexNormals.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ExtrudeFace_VertexNormals.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ExtrudeFace_VertexNormals_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ExtrudeFace_VertexNormals_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Eye_Off.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Eye_Off.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Eye_Off_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Eye_Off_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Eye_On.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Eye_On.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Eye_On_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Eye_On_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_BreakSmoothing.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_BreakSmoothing.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_ConformNormals.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_ConformNormals.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_ConformNormals_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_ConformNormals_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_Delete.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_Delete.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_Delete_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_Delete_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_Detach.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_Detach.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_Detach_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_Detach_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_FlipNormals.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_FlipNormals.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_FlipNormals_3D.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_FlipNormals_3D.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_FlipNormals_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_FlipNormals_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_FlipTri.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_FlipTri.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_FlipTri_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_FlipTri_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_Merge.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_Merge.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_Merge_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_Merge_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_Subdivide.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_Subdivide.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_Subdivide_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_Subdivide_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_Triangulate.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_Triangulate.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_Triangulate_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Face_Triangulate_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/HandleAlign_Custom.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/HandleAlign_Custom.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/HandleAlign_Local.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/HandleAlign_Local.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/HandleAlign_Plane.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/HandleAlign_Plane.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/HandleAlign_World.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/HandleAlign_World.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Help.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Help.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Help_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Help_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Mode_Edge.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Mode_Edge.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Mode_Face.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Mode_Face.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Mode_Object.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Mode_Object.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Mode_Vert.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Mode_Vert.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/NewBezierSpline.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/NewBezierSpline.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/NewPolyShape.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/NewPolyShape.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_ConformNormals.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_ConformNormals.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_ConformNormals_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_ConformNormals_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_Export.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_Export.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_Export_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_Export_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_FlipNormals.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_FlipNormals.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_FlipNormals_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_FlipNormals_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_GenerateUV2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_GenerateUV2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_GenerateUV2_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_GenerateUV2_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_Merge.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_Merge.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_Merge_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_Merge_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_Mirror.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_Mirror.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_Mirror_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_Mirror_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_ProBuilderize.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_ProBuilderize.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_ProBuilderize_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_ProBuilderize_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_Subdivide.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_Subdivide.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_Subdivide_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_Subdivide_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_Triangulate.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_Triangulate.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_Triangulate_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Object_Triangulate_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Options.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Options.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Panel_Boolean.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Panel_Boolean.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Panel_GeoDrawing.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Panel_GeoDrawing.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Panel_Materials.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Panel_Materials.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Panel_Shapes.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Panel_Shapes.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Panel_Smoothing.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Panel_Smoothing.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Panel_UVEditor.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Panel_UVEditor.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Panel_VertColors.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Panel_VertColors.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Pivot_CenterOnElements.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Pivot_CenterOnElements.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Pivot_CenterOnElements_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Pivot_CenterOnElements_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Pivot_CenterOnObject.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Pivot_CenterOnObject.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Pivot_CenterOnObject_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Pivot_CenterOnObject_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Pivot_DirectEdit.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Pivot_DirectEdit.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Pivot_Reset.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Pivot_Reset.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Pivot_Reset_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Pivot_Reset_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ProOnly.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ProOnly.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/RoundedBorder.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/RoundedBorder.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Grow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Grow.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Grow_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Grow_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Invert.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Invert.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Invert_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Invert_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Loop.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Loop.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Loop_Face.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Loop_Face.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Loop_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Loop_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Rect_Complete.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Rect_Complete.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Rect_Intersect.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Rect_Intersect.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Ring.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Ring.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Ring_Face.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Ring_Face.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Ring_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Ring_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_SelectByMaterial.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_SelectByMaterial.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_SelectByMaterial_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_SelectByMaterial_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_SelectBySmoothingGroup.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_SelectBySmoothingGroup.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_SelectBySmoothingGroup_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_SelectBySmoothingGroup_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_SelectByVertexColor.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_SelectByVertexColor.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_SelectByVertexColor_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_SelectByVertexColor_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_SelectHidden-OFF.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_SelectHidden-OFF.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_SelectHidden-ON.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_SelectHidden-ON.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_SelectHole.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_SelectHole.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_ShiftAdd.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_ShiftAdd.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_ShiftDifference.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_ShiftDifference.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_ShiftSubtract.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_ShiftSubtract.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Shrink.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Shrink.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Shrink_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Selection_Shrink_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ShowNextPage_Down.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ShowNextPage_Down.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ShowNextPage_Down_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ShowNextPage_Down_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ShowNextPage_Left.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ShowNextPage_Left.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ShowNextPage_Left_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ShowNextPage_Left_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ShowNextPage_Right.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ShowNextPage_Right.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ShowNextPage_Right_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ShowNextPage_Right_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ShowNextPage_Up.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ShowNextPage_Up.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ShowNextPage_Up_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/ShowNextPage_Up_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Texturing_Paintbrush.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Texturing_Paintbrush.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Vert_Collapse.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Vert_Collapse.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Vert_Collapse_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Vert_Collapse_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Vert_Connect.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Vert_Connect.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Vert_Connect_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Vert_Connect_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Vert_Split.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Vert_Split.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Vert_Split_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Vert_Split_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Vert_Weld.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Vert_Weld.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Vert_Weld_disabled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/Vert_Weld_disabled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/null.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/Toolbar/null.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/UVEditor/ProBuilderGUI_UV_Manip_Off.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/UVEditor/ProBuilderGUI_UV_Manip_Off.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/UVEditor/ProBuilderGUI_UV_Manip_On.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/UVEditor/ProBuilderGUI_UV_Manip_On.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/UVEditor/ProBuilderGUI_UV_ShowTexture_Off.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/UVEditor/ProBuilderGUI_UV_ShowTexture_Off.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/UVEditor/ProBuilderGUI_UV_ShowTexture_On.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/UVEditor/ProBuilderGUI_UV_ShowTexture_On.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/UVEditor/camera-64x64.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/UVEditor/camera-64x64.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/UVEditor/camera-64x64_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProCore/ProBuilder/Icons/UVEditor/camera-64x64_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/Packages-Update.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/Packages-Update.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/XRSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/XRSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -532,7 +254,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs">
           <provider selected="true" editor-type-id="text-editor">
@@ -555,19 +277,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/MirorCam.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/MirrorMover.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="41" column="91" lean-forward="true" selection-start-line="41" selection-start-column="91" selection-end-line="41" selection-end-column="91" />
+            <state relative-caret-position="165">
+              <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
               <folding>
-                <marker date="1558060809182" expanded="false" signature="6:78" ph="..." />
-                <marker date="1558060809182" expanded="true" signature="117:1771" ph="{...}" />
-                <marker date="1558060809182" expanded="true" signature="357:407" ph="{...}" />
-                <marker date="1558060809182" expanded="true" signature="465:1769" ph="{...}" />
-                <marker date="1558060809182" expanded="true" signature="892:1139" ph="/* float offsetZ = mainCam.transform.position.z - mirror.transform.position.z; ... */" />
-                <marker date="1558060809182" expanded="true" signature="1263:1409" ph="/* transform.LookAt(mirror.transform); ... */" />
+                <marker date="1558227170008" expanded="true" signature="6:117" ph="..." />
+                <marker date="1558227170008" expanded="true" signature="159:2350" ph="{...}" />
+                <marker date="1558227170008" expanded="true" signature="418:461" ph="{...}" />
+                <marker date="1558227170008" expanded="true" signature="532:553" ph="{...}" />
+                <marker date="1558227170008" expanded="true" signature="611:1418" ph="{...}" />
+                <marker date="1558227170008" expanded="true" signature="872:997" ph="{...}" />
+                <marker date="1558227170008" expanded="true" signature="1007:1118" ph="/* test.transform.position = MousePos; ... */" />
+                <marker date="1558227170008" expanded="true" signature="1283:1412" ph="/* MousePos = Input.mousePosition; ... */" />
+                <marker date="1558227170008" expanded="true" signature="1450:1492" ph="{...}" />
+                <marker date="1558227170008" expanded="true" signature="1524:1772" ph="{...}" />
+                <marker date="1558227170008" expanded="true" signature="1596:1759" ph="{...}" />
+                <marker date="1558227170008" expanded="true" signature="1802:1847" ph="{...}" />
+                <marker date="1558227170008" expanded="true" signature="1909:2348" ph="{...}" />
+                <marker date="1558227170008" expanded="true" signature="1993:2340" ph="{...}" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../CodeLab1-2019-HW10/Homework10/Assets/Scripts/MouseDragger.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-270" />
           </provider>
         </entry>
       </file>
@@ -580,12 +317,15 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MirorCam.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Visual Systems Spring 2019/Homework7/Perspective/Assets/Scripts/MirorCam.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Test/ProjectSettings/TimeManager.asset" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MirrorMover.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../CodeLab1-2019-HW10/Homework10/Assets/Scripts/MouseDragger.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/MirorCam.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MirrorMover.cs" />
       </list>
     </option>
   </component>
@@ -600,7 +340,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
@@ -608,14 +348,14 @@
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Visual Systems Spring 2019/Homework7/Perspective/Assets/Scripts/MirorCam.cs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../CodeLab1-2019-HW10/Homework10/Assets/Scripts/MouseDragger.cs" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
@@ -657,7 +397,8 @@
       <option name="presentableId" value="Default" />
       <updated>1558040569135</updated>
       <workItem from="1558040570402" duration="59000" />
-      <workItem from="1558040657615" duration="10692000" />
+      <workItem from="1558040657615" duration="11028000" />
+      <workItem from="1558219121605" duration="8181000" />
     </task>
     <task id="LOCAL-00001" summary="Mirage effect">
       <created>1558062147592</created>
@@ -666,11 +407,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558062147592</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Reoganize">
+      <created>1558062670612</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1558062670612</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10751000" />
+    <option name="totallyTimeSpent" value="19268000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -685,7 +433,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -722,7 +470,8 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Mirage effect" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mirage effect" />
+    <MESSAGE value="Reoganize" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reoganize" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -735,6 +484,24 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../../../Visual Systems Spring 2019/Homework7/Perspective/Assets/Scripts/MirorCam.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MirorCam.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="41" column="91" selection-start-line="41" selection-start-column="91" selection-end-line="41" selection-end-column="91" />
+          <folding>
+            <marker date="1558060809182" expanded="false" signature="6:78" ph="..." />
+            <marker date="1558060809182" expanded="true" signature="117:1771" ph="{...}" />
+            <marker date="1558060809182" expanded="true" signature="357:407" ph="{...}" />
+            <marker date="1558060809182" expanded="true" signature="465:1769" ph="{...}" />
+            <marker date="1558060809182" expanded="true" signature="892:1139" ph="/* float offsetZ = mainCam.transform.position.z - mirror.transform.position.z; ... */" />
+            <marker date="1558060809182" expanded="true" signature="1263:1409" ph="/* transform.LookAt(mirror.transform); ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -754,20 +521,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../Visual Systems Spring 2019/Homework7/Perspective/Assets/Scripts/MirorCam.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MirorCam.cs">
+    <entry file="file://$PROJECT_DIR$/../../CodeLab1-2019-HW10/Homework10/Assets/Scripts/MouseDragger.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="41" column="91" lean-forward="true" selection-start-line="41" selection-start-column="91" selection-end-line="41" selection-end-column="91" />
+        <state relative-caret-position="-270" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MirrorMover.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
           <folding>
-            <marker date="1558060809182" expanded="false" signature="6:78" ph="..." />
-            <marker date="1558060809182" expanded="true" signature="117:1771" ph="{...}" />
-            <marker date="1558060809182" expanded="true" signature="357:407" ph="{...}" />
-            <marker date="1558060809182" expanded="true" signature="465:1769" ph="{...}" />
-            <marker date="1558060809182" expanded="true" signature="892:1139" ph="/* float offsetZ = mainCam.transform.position.z - mirror.transform.position.z; ... */" />
-            <marker date="1558060809182" expanded="true" signature="1263:1409" ph="/* transform.LookAt(mirror.transform); ... */" />
+            <marker date="1558227170008" expanded="true" signature="6:117" ph="..." />
+            <marker date="1558227170008" expanded="true" signature="159:2350" ph="{...}" />
+            <marker date="1558227170008" expanded="true" signature="418:461" ph="{...}" />
+            <marker date="1558227170008" expanded="true" signature="532:553" ph="{...}" />
+            <marker date="1558227170008" expanded="true" signature="611:1418" ph="{...}" />
+            <marker date="1558227170008" expanded="true" signature="872:997" ph="{...}" />
+            <marker date="1558227170008" expanded="true" signature="1007:1118" ph="/* test.transform.position = MousePos; ... */" />
+            <marker date="1558227170008" expanded="true" signature="1283:1412" ph="/* MousePos = Input.mousePosition; ... */" />
+            <marker date="1558227170008" expanded="true" signature="1450:1492" ph="{...}" />
+            <marker date="1558227170008" expanded="true" signature="1524:1772" ph="{...}" />
+            <marker date="1558227170008" expanded="true" signature="1596:1759" ph="{...}" />
+            <marker date="1558227170008" expanded="true" signature="1802:1847" ph="{...}" />
+            <marker date="1558227170008" expanded="true" signature="1909:2348" ph="{...}" />
+            <marker date="1558227170008" expanded="true" signature="1993:2340" ph="{...}" />
           </folding>
         </state>
       </provider>
