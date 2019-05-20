@@ -63,18 +63,23 @@ public class ValveMovement : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Path") && other.name != transform.parent.name)
+        if (other.CompareTag("Path") && other.name != transform.parent.name && other.name != "Holder")
         {
-            //print(other.name);
-            //print(transform.parent.name);
+            /*if (gameObject.name == "Valve 1 Ghost 1")
+            {
+                print(other.name);
+                //print(transform.parent.name);
+            }*/
+            
             print("Connected");
+            //print(other.name);
             navMod.ignoreFromBuild = true;
         }
     }
     
     private void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("Path") && other.name != transform.parent.name)
+        if (other.CompareTag("Path") && other.name != transform.parent.name && other.name != "Holder")
         {
             print("Disconnected");
             navMod.ignoreFromBuild = false;
