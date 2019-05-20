@@ -58,9 +58,7 @@ public class MirrorMover : MonoBehaviour
         
         /*MousePos = Input.mousePosition;
         MousePos.z = dist.magnitude;
-        MousePos = mainCam.ScreenToWorldPoint(MousePos);*/
-        
-        
+        MousePos = mainCam.ScreenToWorldPoint(MousePos);*/ 
     }
 
     private void OnMouseDown()
@@ -128,5 +126,10 @@ public class MirrorMover : MonoBehaviour
         BuildNav.buildNav.Build();
         rb.isKinematic = true;
         agent.enabled = true;
+    }
+
+    private void OnMouseOver()
+    {
+        throw new System.NotImplementedException();
     }
 }

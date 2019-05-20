@@ -1,11 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
-public class TextControl : MonoBehaviour
+public class SpriteControl : MonoBehaviour
 {
-    private Text text;
+    private SpriteRenderer sprite;
     //private Color oriColor;
     public AnimationCurve animCurve;
     public float period;
@@ -17,13 +16,13 @@ public class TextControl : MonoBehaviour
 
     void Awake()
     {
-        text = GetComponent<Text>();
+        sprite = GetComponent<SpriteRenderer>();
         //oriColor = text.color;
     }
     // Start is called before the first frame update
     void Start()
     {
-        if (text.color.a != 0)
+        if (sprite.color.a != 0)
         {
             StartCoroutine(Blink());
         }
@@ -38,12 +37,12 @@ public class TextControl : MonoBehaviour
 
     IEnumerator Blink()
     {
-        Color currentColor = text.color;
+        Color currentColor = sprite.color;
         float timer = 0;
 
         while (!shouldDisappear)
         {
-            text.color = Color.Lerp(currentColor, targetColor, animCurve.Evaluate(timer / period));
+            sprite.color = Color.Lerp(currentColor, targetColor, animCurve.Evaluate(timer / period));
 
             timer = (timer + Time.deltaTime) % period;
 
@@ -59,12 +58,12 @@ public class TextControl : MonoBehaviour
         //StopCoroutine(Blink());
         //print("Disappear!");
 
-        Color currentColor = text.color;
+        Color currentColor = sprite.color;
         float timer = 0;
 
         while (timer < disappearTime)
         {
-            text.color = Color.Lerp(currentColor, Color.clear, timer / disappearTime);
+            sprite.color = Color.Lerp(currentColor, Color.clear, timer / disappearTime);
 
             timer += Time.deltaTime;
             yield return 0;
@@ -77,12 +76,12 @@ public class TextControl : MonoBehaviour
         //StopCoroutine(Blink());
         //print("Disappear!");
 
-        Color currentColor = text.color;
+        Color currentColor = sprite.color;
         float timer = 0;
 
         while (timer < appearTime)
         {
-            text.color = Color.Lerp(currentColor, Color.white, timer / appearTime);
+            sprite.color = Color.Lerp(currentColor, Color.white, timer / appearTime);
 
             timer += Time.deltaTime;
             yield return 0;

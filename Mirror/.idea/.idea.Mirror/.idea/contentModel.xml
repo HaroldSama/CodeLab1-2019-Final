@@ -210,6 +210,7 @@
           <e p="Narratives" t="Include">
             <e p="NarrativeManager.cs" t="Include" />
             <e p="SparkleGuide.cs" t="Include" />
+            <e p="SpriteControl.cs" t="Include" />
             <e p="TextControl.cs" t="Include" />
           </e>
           <e p="NavMeshController.cs" t="Include" />

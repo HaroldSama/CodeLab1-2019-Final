@@ -5,6 +5,7 @@ using UnityEngine;
 public class NarrativeManager : MonoBehaviour
 {
     public List<TextControl> TextControls;
+    public List<SpriteControl> SpriteControls;
     public List<Transform> CameraGuide;
     public List<Transform> paths;
     public List<Transform> pathTargets;
@@ -52,6 +53,12 @@ public class NarrativeManager : MonoBehaviour
             timer += Time.deltaTime;
 
             yield return 0;
+        }
+
+        if (cameraStep == 0)
+        {
+            StartCoroutine(TextControls[1].Appear());
+            StartCoroutine(SpriteControls[0].Appear());
         }
 
         cameraStep++;

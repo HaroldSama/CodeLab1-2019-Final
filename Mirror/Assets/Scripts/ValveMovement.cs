@@ -54,7 +54,7 @@ public class ValveMovement : MonoBehaviour
 
         transform.rotation = Quaternion.LookRotation(leftPlane.normal);
 
-        transform.localScale = new Vector3(oriScale.x / Mathf.Cos(transform.localEulerAngles.y * Mathf.Deg2Rad), oriScale.y, oriScale.z);
+        transform.localScale = new Vector3(oriScale.x / Mathf.Cos(transform.localEulerAngles.y * Mathf.Deg2Rad) * 0.9f, oriScale.y, oriScale.z);
         
     }
 
