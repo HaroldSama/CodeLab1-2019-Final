@@ -1,16 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class SceneFader : MonoBehaviour
 {
     public float fadeTime;
-
+    public static SceneFader Instance;
     private Image image;
 
     private void Awake()
     {
+        Instance = this;
         image = GetComponent<Image>();
     }
 
@@ -40,7 +42,7 @@ public class SceneFader : MonoBehaviour
         }
     }
     
-    IEnumerator Close()
+    public IEnumerator FadeAndLoad(int sceneIndex)
     {
         float timer = 0;
 
@@ -52,5 +54,7 @@ public class SceneFader : MonoBehaviour
 
             yield return 0;
         }
+
+        SceneManager.LoadScene(sceneIndex);
     }
 }

@@ -9,6 +9,7 @@ public class MirrorMover : MonoBehaviour
 {
     public Material original;
     public Material glowing;
+    public GameObject player;
     
     private Camera mainCam;
     private Vector3 MousePos;
@@ -35,8 +36,8 @@ public class MirrorMover : MonoBehaviour
     private void Awake()
     {
         mainCam = Camera.main;
-        agent = GameObject.Find("Player").GetComponent<NavMeshAgent>();
-        rb = GameObject.Find("Player").GetComponent<Rigidbody>();
+        agent = player.GetComponent<NavMeshAgent>();
+        rb = player.GetComponent<Rigidbody>();
         rd = GetComponent<MeshRenderer>();
     }
 
@@ -138,8 +139,14 @@ public class MirrorMover : MonoBehaviour
         }
         
         BuildNav.buildNav.Build();
-        rb.isKinematic = true;
-        agent.enabled = true;
+        
+        //If player didn't fall off, put it back to the NavMesh
+        if (player.transform.position.y > - 1)
+        {
+            rb.isKinematic = true;
+            agent.enabled = true;
+        }
+        
     }
 
     private void OnMouseOver()
