@@ -19,7 +19,7 @@ public class MirrorMover : MonoBehaviour
     private Rigidbody rb;
     private NavMeshAgent agent;
 
-    private bool firstMove;
+    public bool firstMove;
     //private bool aligning;
 
     public float allignTime;
