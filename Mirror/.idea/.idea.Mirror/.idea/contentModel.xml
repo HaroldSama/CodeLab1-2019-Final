@@ -217,8 +217,8 @@
           <e p="Test" t="Include">
             <e p="PlayerController.cs" t="Include" />
           </e>
-          <e p="ValveDivision.cs" t="Include" />
           <e p="ValveMovement.cs" t="Include" />
+          <e p="ValveSafeZone.cs" t="Include" />
           <e p="Visual" t="Include">
             <e p="RipplePool.cs" t="Include" />
             <e p="RippleSelfControl.cs" t="Include" />
