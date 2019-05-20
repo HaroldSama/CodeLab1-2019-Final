@@ -7,8 +7,6 @@ using UnityEngine.AI;
 
 public class MirrorMover : MonoBehaviour
 {
-    public Material original;
-    public Material glowing;
     public GameObject player;
     
     private Camera mainCam;
@@ -19,7 +17,6 @@ public class MirrorMover : MonoBehaviour
     
     private Vector3 reference;
     private Rigidbody rb;
-    private MeshRenderer rd;
     private NavMeshAgent agent;
 
     private bool firstMove;
@@ -38,7 +35,6 @@ public class MirrorMover : MonoBehaviour
         mainCam = Camera.main;
         agent = player.GetComponent<NavMeshAgent>();
         rb = player.GetComponent<Rigidbody>();
-        rd = GetComponent<MeshRenderer>();
     }
 
     // Start is called before the first frame update
@@ -147,15 +143,5 @@ public class MirrorMover : MonoBehaviour
             agent.enabled = true;
         }
         
-    }
-
-    private void OnMouseOver()
-    {
-        rd.material = glowing;
-    }
-
-    private void OnMouseExit()
-    {
-        rd.material = original;
     }
 }

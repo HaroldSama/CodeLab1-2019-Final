@@ -42,13 +42,13 @@ public class SceneFader : MonoBehaviour
         }
     }
     
-    public IEnumerator FadeAndLoad(int sceneIndex)
+    public IEnumerator FadeAndLoad(int sceneIndex, float localFadeTime)
     {
         float timer = 0;
 
-        while (timer < fadeTime)
+        while (timer < localFadeTime)
         {
-            image.color = Color.Lerp(Color.clear, Color.black, timer / fadeTime);
+            image.color = Color.Lerp(Color.clear, Color.black, timer / localFadeTime);
 
             timer += Time.deltaTime;
 

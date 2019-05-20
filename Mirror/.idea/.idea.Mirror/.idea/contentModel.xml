@@ -221,6 +221,8 @@
           <e p="ValveMovement.cs" t="Include" />
           <e p="ValveSafeZone.cs" t="Include" />
           <e p="Visual" t="Include">
+            <e p="FrameGlow.cs" t="Include" />
+            <e p="MirrorRipple.cs" t="Include" />
             <e p="RipplePool.cs" t="Include" />
             <e p="RippleSelfControl.cs" t="Include" />
             <e p="SceneFader.cs" t="Include" />

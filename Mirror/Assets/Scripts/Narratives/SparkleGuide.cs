@@ -2,12 +2,16 @@
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SparkleGuide : MonoBehaviour
 {
     public List<Transform> guides;
     public float travelTime;
     public int step;
+    public bool moving;
+    public float endingTime;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -22,16 +26,23 @@ public class SparkleGuide : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") && !moving)
         {
             print("Entered");
             StartCoroutine(Travel(guides[step]));
-            NavMeshController.Freeze = true;
+            moving = true;
 
             if (step == 0)
             {
+                NavMeshController.Freeze = true;
                 StartCoroutine(NarrativeManager.instance.MoveCamera(NarrativeManager.instance.CameraGuide[NarrativeManager.instance.cameraStep]));
                 StartCoroutine(NarrativeManager.instance.MovePath());
+            }
+
+            if (step == guides.Count - 1)
+            {
+                StartCoroutine(SceneFader.Instance.FadeAndLoad(
+                    (SceneManager.GetActiveScene().buildIndex + 1) % SceneManager.sceneCountInBuildSettings, endingTime));
             }
         }
         
@@ -52,6 +63,7 @@ public class SparkleGuide : MonoBehaviour
             yield return 0;
         }
 
+        moving = false;
         NavMeshController.Freeze = false;
         step++;
     }
