@@ -7,6 +7,9 @@ using UnityEngine.AI;
 
 public class MirrorMover : MonoBehaviour
 {
+    public Material original;
+    public Material glowing;
+    
     private Camera mainCam;
     private Vector3 MousePos;
 
@@ -15,7 +18,10 @@ public class MirrorMover : MonoBehaviour
     
     private Vector3 reference;
     private Rigidbody rb;
+    private MeshRenderer rd;
     private NavMeshAgent agent;
+
+    private bool firstMove;
     //private bool aligning;
 
     public float allignTime;
@@ -31,6 +37,7 @@ public class MirrorMover : MonoBehaviour
         mainCam = Camera.main;
         agent = GameObject.Find("Player").GetComponent<NavMeshAgent>();
         rb = GameObject.Find("Player").GetComponent<Rigidbody>();
+        rd = GetComponent<MeshRenderer>();
     }
 
     // Start is called before the first frame update
@@ -75,6 +82,13 @@ public class MirrorMover : MonoBehaviour
         //Make character being able to fall when the path was move off her feet
         rb.isKinematic = false;
         agent.enabled = false;
+
+        if (!firstMove)
+        {
+            firstMove = true;
+            StartCoroutine(NarrativeManager.instance.TextControls[1].Disappear());
+            StartCoroutine(NarrativeManager.instance.SpriteControls[0].Disappear());
+        }
     }
 
     private void OnMouseDrag()
@@ -130,6 +144,11 @@ public class MirrorMover : MonoBehaviour
 
     private void OnMouseOver()
     {
-        throw new System.NotImplementedException();
+        rd.material = glowing;
+    }
+
+    private void OnMouseExit()
+    {
+        rd.material = original;
     }
 }
