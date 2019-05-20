@@ -11,6 +11,7 @@ public class ValveMovement : MonoBehaviour
 {
     public int planeFollow;
     public ClipPlaneDrawer mirrorClipPlane;
+    public Vector3 track;
     private Camera mainCam;
     private Vector3 oriScale;
     private NavMeshModifier navMod;
@@ -40,14 +41,14 @@ public class ValveMovement : MonoBehaviour
     {
 
         
-        Ray ray1 = new Ray(transform.position, Vector3.back);
+        Ray ray1 = new Ray(transform.position, track);
         Debug.DrawRay(ray1.origin, ray1.direction, Color.green);
         if (mirrorClipPlane.planes[planeFollow].Raycast(ray1, out float dist1))
         {
             transform.position = ray1.GetPoint(dist1);  
         }
         
-        Ray ray2 = new Ray(transform.position, Vector3.forward);
+        Ray ray2 = new Ray(transform.position, -track);
         Debug.DrawRay(ray2.origin, ray2.direction, Color.green);
         if (mirrorClipPlane.planes[planeFollow].Raycast(ray2, out float dist2))
         {
@@ -56,7 +57,7 @@ public class ValveMovement : MonoBehaviour
 
         transform.rotation = Quaternion.LookRotation(mirrorClipPlane.planes[planeFollow].normal);
 
-        transform.localScale = new Vector3(oriScale.x / Mathf.Cos(transform.localEulerAngles.y * Mathf.Deg2Rad) * 0.9f, oriScale.y, oriScale.z);
+        //transform.localScale = new Vector3(oriScale.x / Mathf.Cos(transform.localEulerAngles.y * Mathf.Deg2Rad) * 0.9f, oriScale.y, oriScale.z);
         
     }
 
