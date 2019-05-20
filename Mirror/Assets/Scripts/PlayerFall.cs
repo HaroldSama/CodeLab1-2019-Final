@@ -21,7 +21,7 @@ public class PlayerFall : MonoBehaviour
         if (!loading && transform.position.y < deadLine)
         {
             loading = true;
-            StartCoroutine(SceneFader.Instance.FadeAndLoad(SceneManager.GetActiveScene().buildIndex, 1f)); 
+            StartCoroutine(SceneFader.Instance.FadeAndLoad(SceneManager.GetActiveScene().buildIndex, SceneFader.Instance.fadeTime)); 
         }
     }
 }

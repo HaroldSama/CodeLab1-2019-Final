@@ -61,7 +61,7 @@ public class ValveMovement : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerStay(Collider other)
     {
         if (other.CompareTag("Path") && other.name != transform.parent.name && other.name != "Holder")
         {
@@ -71,7 +71,7 @@ public class ValveMovement : MonoBehaviour
                 //print(transform.parent.name);
             }*/
             
-            print("Connected");
+            //print("Connected");
             //print(other.name);
             navMod.ignoreFromBuild = true;
         }
