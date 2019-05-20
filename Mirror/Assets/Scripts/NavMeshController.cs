@@ -15,7 +15,7 @@ public class NavMeshController : MonoBehaviour
     private Animator animGhost;
     private Rigidbody rb;
 
-    public static bool firstClick;
+    bool firstClick;
 
     private void Awake()
     {
@@ -58,7 +58,13 @@ public class NavMeshController : MonoBehaviour
                 //agent.updateRotation = false;
                 agent.SetDestination(hit.point);
                 RipplePool.instance.GetRipple(hit.point);
-                firstClick = true;
+                
+                if (!firstClick)
+                {
+                    firstClick = true;
+                    StartCoroutine(NarrativeManager.instance.TextControls[0].Disappear());
+                }
+                
             }
         }
 

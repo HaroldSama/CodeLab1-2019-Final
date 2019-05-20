@@ -3,13 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class BlinkingText : MonoBehaviour
+public class TextControl : MonoBehaviour
 {
     private Text text;
     private Color oriColor;
     public AnimationCurve animCurve;
     public float period;
     public Color targetColor;
+    public float disappearTime;
+
+    private bool shouldDisappear;
 
     void Awake()
     {
@@ -32,15 +35,33 @@ public class BlinkingText : MonoBehaviour
     {
         float timer = 0;
 
-        while (timer < period)
+        while (!shouldDisappear)
         {
             text.color = Color.Lerp(oriColor, targetColor, animCurve.Evaluate(timer / period));
 
-            timer += Time.deltaTime;
+            timer = (timer + Time.deltaTime) % period;
 
             yield return 0;
         }
 
-        StartCoroutine(Blink());
+        //StartCoroutine(Blink());
+    }
+
+    public IEnumerator Disappear()
+    {
+        shouldDisappear = true;
+        //StopCoroutine(Blink());
+        //print("Disappear!");
+
+        Color currentColor = text.color;
+        float timer = 0;
+
+        while (timer < disappearTime)
+        {
+            text.color = Color.Lerp(currentColor, Color.clear, timer / disappearTime);
+
+            timer += Time.deltaTime;
+            yield return 0;
+        }
     }
 }
