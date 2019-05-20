@@ -6,6 +6,7 @@ using UnityEngine.AI;
 
 public class NavMeshController : MonoBehaviour
 {
+    public static bool Freeze;
     //public Vector3 destination;
     //private Vector3 oldDest;
 
@@ -36,7 +37,24 @@ public class NavMeshController : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
+    {        
+
+        if (agent.velocity.magnitude > 0)
+        {
+            anim.SetBool("IsWalking", true);
+            animGhost.SetBool("IsWalking", true);
+        }
+        else
+        {
+            anim.SetBool("IsWalking", false);
+            animGhost.SetBool("IsWalking", false);
+        }        
+        
+        if (Freeze)
+        {
+            return;
+        }
+        
         /*if (destination != oldDest)
         {
             agent.SetDestination(destination);
@@ -68,15 +86,5 @@ public class NavMeshController : MonoBehaviour
             }
         }
 
-        if (agent.velocity.magnitude > 0)
-        {
-            anim.SetBool("IsWalking", true);
-            animGhost.SetBool("IsWalking", true);
-        }
-        else
-        {
-            anim.SetBool("IsWalking", false);
-            animGhost.SetBool("IsWalking", false);
-        }
     }
 }

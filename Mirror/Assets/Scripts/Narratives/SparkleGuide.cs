@@ -26,6 +26,13 @@ public class SparkleGuide : MonoBehaviour
         {
             print("Entered");
             StartCoroutine(Travel(guides[step]));
+            NavMeshController.Freeze = true;
+
+            if (step == 0)
+            {
+                StartCoroutine(NarrativeManager.instance.MoveCamera(NarrativeManager.instance.CameraGuide[NarrativeManager.instance.cameraStep]));
+                StartCoroutine(NarrativeManager.instance.MovePath());
+            }
         }
         
         
@@ -34,16 +41,18 @@ public class SparkleGuide : MonoBehaviour
     IEnumerator Travel(Transform guide)
     {
         float timer = 0;
+        Vector3 oriPos = transform.position;
 
         while (timer < travelTime)
         {
-            transform.position = Vector3.Lerp(transform.position, guide.position, timer / travelTime);
+            transform.position = Vector3.Lerp(oriPos, guide.position, timer / travelTime);
 
             timer += Time.deltaTime;
 
             yield return 0;
         }
 
+        NavMeshController.Freeze = false;
         step++;
     }
 }

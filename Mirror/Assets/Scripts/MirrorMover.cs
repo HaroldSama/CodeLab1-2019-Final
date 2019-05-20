@@ -9,6 +9,10 @@ public class MirrorMover : MonoBehaviour
 {
     private Camera mainCam;
     private Vector3 MousePos;
+
+    private Plane normPlane;
+    private Vector3 planePos;
+    
     private Vector3 reference;
     private Rigidbody rb;
     private NavMeshAgent agent;
@@ -38,26 +42,34 @@ public class MirrorMover : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Draw a plane to map the position the mirror should go if dragged
-        Plane plane = new Plane(transform.up, transform.position);
+        //Detect what is the mouse position on the plane of the mirror face
+        Plane plane = new Plane(- transform.right, transform.position);
         Ray ray = mainCam.ScreenPointToRay(Input.mousePosition);
+        
         if (plane.Raycast(ray, out float dist))
         {
             MousePos = ray.GetPoint(dist);
-            MousePos.x = Mathf.Clamp(MousePos.x, Xmin, Xmax);
+            //MousePos.x = Mathf.Clamp(MousePos.x, Xmin, Xmax);
         }
 
         //test.transform.position = MousePos;
         //Vector3 dist = transform.position - mainCam.transform.position;
-        Debug.DrawRay(transform.position, transform.forward * 100, Color.yellow);
-        Debug.DrawLine(mainCam.transform.position, MousePos, Color.blue);
+        
+        
         /*MousePos = Input.mousePosition;
         MousePos.z = dist.magnitude;
         MousePos = mainCam.ScreenToWorldPoint(MousePos);*/
+        
+        
     }
 
     private void OnMouseDown()
     {
+        //Draw a plane to map the position the mirror should go if dragged
+        normPlane = new Plane(transform.up, MousePos);
+        Debug.DrawRay(MousePos, transform.up, Color.yellow, float.MaxValue);
+        
+        //Debug.DrawRay(MousePos, transform.up, Color.cyan);
         reference = MousePos;
         //agent.velocity = Vector3.zero;
         //rb.velocity = Vector3.zero;
@@ -70,13 +82,23 @@ public class MirrorMover : MonoBehaviour
     private void OnMouseDrag()
     {
         //print("Darg");
+        Ray ray = mainCam.ScreenPointToRay(Input.mousePosition);
         
+        if (normPlane.Raycast(ray, out float dist))
+        {
+            planePos = ray.GetPoint(dist);
+            //print(planePos.x);
+            planePos.x = Mathf.Clamp(planePos.x, Xmin, Xmax);
+            //print("Clamp " + planePos.x);
+        }
+        
+        Debug.DrawLine(mainCam.transform.position, planePos, Color.blue);
         
         if (name.Contains("X"))
         {
-            float x = MousePos.x - reference.x;
+            float x = planePos.x - reference.x;
             transform.parent.position += new Vector3(x,0,0);
-            reference = MousePos;
+            reference = planePos;
         }       
     }
 
