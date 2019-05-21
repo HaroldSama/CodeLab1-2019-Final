@@ -216,6 +216,7 @@
           </e>
           <e p="NavMeshController.cs" t="Include" />
           <e p="PlayerFall.cs" t="Include" />
+          <e p="SpecialValve.cs" t="Include" />
           <e p="Test" t="Include">
             <e p="PlayerController.cs" t="Include" />
           </e>

@@ -39,20 +39,21 @@ public class ValveSafeZone : MonoBehaviour
 
             transform.localPosition = newPos;
 
-            newMax = lMax - orientation.x * (newPos.x - oriPos.x) - orientation.y * (newPos.y - oriPos.y) - orientation.z * (newPos.z - oriPos.z);
-            
-            transform.localScale = new Vector3(
-                Mathf.Clamp(1 - orientation.x + valve.transform.localPosition.x - transform.localPosition.x, lMin, newMax),
-                Mathf.Clamp(1 - orientation.y + valve.transform.localPosition.y - transform.localPosition.y, lMin, newMax), 
-                Mathf.Clamp(1 - orientation.z + valve.transform.localPosition.z - transform.localPosition.z, lMin, newMax));
+            newMax = lMax - orientation.x * (newPos.x - oriPos.x) - orientation.y * (newPos.y - oriPos.y) - orientation.z * (newPos.z - oriPos.z); 
         }
-        else
+        
+        transform.localScale = new Vector3(
+            Mathf.Clamp(1 - Mathf.Abs(orientation.x) + (valve.transform.localPosition.x - transform.localPosition.x) * orientation.x, lMin, newMax),
+            Mathf.Clamp(1 - Mathf.Abs(orientation.y) + (valve.transform.localPosition.y - transform.localPosition.y) * orientation.y, lMin, newMax), 
+            Mathf.Clamp(1 - Mathf.Abs(orientation.z) + (valve.transform.localPosition.z - transform.localPosition.z) * orientation.z, lMin, newMax));        
+        
+        /*else
         {
             transform.localScale = new Vector3(
                 Mathf.Clamp(1 - orientation.x + Mathf.Abs(transform.localPosition.x - valve.transform.localPosition.x), lMin, newMax),
                 Mathf.Clamp(1 - orientation.y + Mathf.Abs(transform.localPosition.y - valve.transform.localPosition.y), lMin, newMax), 
                 Mathf.Clamp(1 - orientation.z + Mathf.Abs(transform.localPosition.z - valve.transform.localPosition.z), lMin, newMax));        
-        }
+        }*/
         
 
     }

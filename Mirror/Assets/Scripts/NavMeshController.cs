@@ -74,8 +74,12 @@ public class NavMeshController : MonoBehaviour
                 //print("go");
                 //agent.updatePosition = false;
                 //agent.updateRotation = false;
-                agent.SetDestination(hit.point);
-                RipplePool.instance.GetRipple(hit.point);
+                if (agent.enabled)
+                {
+                    agent.SetDestination(hit.point);
+                    RipplePool.instance.GetRipple(hit.point);
+                }
+                
                 
                 if (!firstClick)
                 {

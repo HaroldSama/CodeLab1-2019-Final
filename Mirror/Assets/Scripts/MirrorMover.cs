@@ -29,6 +29,10 @@ public class MirrorMover : MonoBehaviour
 
     private float offsetZ;
 
+    public int snapUnitX = 1;
+    public int snapUnitY = 1;
+    public int snapUnitZ = 1;
+
     //public GameObject test;
     
 
@@ -141,7 +145,7 @@ public class MirrorMover : MonoBehaviour
         while (timer * Time.deltaTime < allignTime)
         {
             Vector3 start = transform.parent.position;
-            Vector3 end = new Vector3(Mathf.Round(start.x), Mathf.Round(start.y), Mathf.Round(start.z));
+            Vector3 end = new Vector3(Mathf.Round(start.x / snapUnitX) * snapUnitX, Mathf.Round(start.y / snapUnitY) * snapUnitY, Mathf.Round(start.z / snapUnitZ) * snapUnitZ);
 
             transform.parent.position = Vector3.Lerp(start, end, timer * Time.deltaTime / allignTime);
 
@@ -153,7 +157,7 @@ public class MirrorMover : MonoBehaviour
         BuildNav.buildNav.Build();
         
         //If player didn't fall off, put it back to the NavMesh
-        if (player.transform.position.y > - 1)
+        if (player.transform.position.y > - 0.1)
         {
             rb.isKinematic = true;
             agent.enabled = true;

@@ -4928,7 +4928,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 1908392740}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.79771715
   m_Height: 6
   m_Direction: 1
@@ -5087,7 +5087,7 @@ MonoBehaviour:
   m_OverrideTileSize: 0
   m_TileSize: 256
   m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.06666667
+  m_VoxelSize: 0.033333335
   m_BuildHeightMesh: 0
   m_NavMeshData: {fileID: 23800000, guid: 85912cce11ef49d4e82465b1c7772804, type: 2}
 --- !u!4 &1930309010
@@ -6305,7 +6305,7 @@ PrefabInstance:
     - target: {fileID: 8445200325884809793, guid: 2ecfe3bb2319664429a3c0fa85b24f7f,
         type: 3}
       propertyPath: orientation.z
-      value: 1
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ecfe3bb2319664429a3c0fa85b24f7f, type: 3}
