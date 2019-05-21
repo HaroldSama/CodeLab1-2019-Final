@@ -16,7 +16,7 @@ public class NavMeshController : MonoBehaviour
     private Animator animGhost;
     private Rigidbody rb;
 
-    bool firstClick;
+    public bool firstClick;
 
     private void Awake()
     {

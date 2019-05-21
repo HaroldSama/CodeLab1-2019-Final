@@ -27,6 +27,8 @@ public class MirrorMover : MonoBehaviour
     public float Xmin;
     public float Xmax;
 
+    private float offsetZ;
+
     //public GameObject test;
     
 
@@ -48,6 +50,8 @@ public class MirrorMover : MonoBehaviour
     {
         //Detect what is the mouse position on the plane of the mirror face
         Plane plane = new Plane(- transform.right, transform.position);
+        Debug.DrawRay(transform.position, - transform.right, Color.yellow);
+        
         Ray ray = mainCam.ScreenPointToRay(Input.mousePosition);
         
         if (plane.Raycast(ray, out float dist))
@@ -69,10 +73,12 @@ public class MirrorMover : MonoBehaviour
     {
         //Draw a plane to map the position the mirror should go if dragged
         normPlane = new Plane(transform.up, MousePos);
-        Debug.DrawRay(MousePos, transform.up, Color.yellow, float.MaxValue);
+        //Debug.DrawRay(MousePos, transform.up * 100, Color.yellow, float.MaxValue);
         
         //Debug.DrawRay(MousePos, transform.up, Color.cyan);
+        
         reference = MousePos;
+        offsetZ = MousePos.z - transform.position.z;
         //agent.velocity = Vector3.zero;
         //rb.velocity = Vector3.zero;
         
@@ -97,7 +103,7 @@ public class MirrorMover : MonoBehaviour
         {
             planePos = ray.GetPoint(dist);
             //print(planePos.x);
-            planePos.x = Mathf.Clamp(planePos.x, Xmin, Xmax);
+            
             //print("Clamp " + planePos.x);
         }
         
@@ -105,10 +111,20 @@ public class MirrorMover : MonoBehaviour
         
         if (name.Contains("X"))
         {
+            planePos.x = Mathf.Clamp(planePos.x, Xmin, Xmax);
             float x = planePos.x - reference.x;
             transform.parent.position += new Vector3(x,0,0);
             reference = planePos;
-        }       
+        }
+        
+        if (name.Contains("Z"))
+        {
+            //print(MousePos.z);
+            MousePos.z = Mathf.Clamp(MousePos.z, Xmin + offsetZ, Xmax + offsetZ);
+            float z = MousePos.z - reference.z;
+            transform.parent.position += new Vector3(0,0, z);
+            reference = MousePos;
+        } 
     }
 
     private void OnMouseUp()

@@ -1191,6 +1191,8 @@ MonoBehaviour:
   orientation: {x: 1, y: 0, z: 0}
   lMin: 0
   lMax: 4
+  mobile: 0
+  rootValve: {fileID: 0}
 --- !u!1 &206300587
 GameObject:
   m_ObjectHideFlags: 0
@@ -2850,7 +2852,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1506
+  m_Name: pb_Mesh-49526
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3013,7 +3015,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1472
+  m_Name: pb_Mesh-49494
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4328,6 +4330,8 @@ MonoBehaviour:
   orientation: {x: 0, y: 0, z: 1}
   lMin: 0
   lMax: 5
+  mobile: 0
+  rootValve: {fileID: 0}
 --- !u!1 &1761424394
 GameObject:
   m_ObjectHideFlags: 0
@@ -4376,6 +4380,8 @@ MonoBehaviour:
   orientation: {x: 1, y: 0, z: 0}
   lMin: 0
   lMax: 4
+  mobile: 0
+  rootValve: {fileID: 0}
 --- !u!1001 &1773559127
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5150,6 +5156,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f72cf63af2efdfd43a7955d11aa3d60f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  firstClick: 0
 --- !u!114 &1969768192
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6166,6 +6173,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 1e40a82aaf4d0b9429dbe124cc9da229, type: 2}
+    - target: {fileID: 8114795030330726057, guid: 404898cf941f3da48b53bb8ce40114d6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404898cf941f3da48b53bb8ce40114d6, type: 3}
 --- !u!1001 &8445200325597689240

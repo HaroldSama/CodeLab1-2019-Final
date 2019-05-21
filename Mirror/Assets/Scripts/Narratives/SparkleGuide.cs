@@ -11,6 +11,8 @@ public class SparkleGuide : MonoBehaviour
     public int step;
     public bool moving;
     public float endingTime;
+
+    public int level;
     
     // Start is called before the first frame update
     void Start()
@@ -32,7 +34,7 @@ public class SparkleGuide : MonoBehaviour
             StartCoroutine(Travel(guides[step]));
             moving = true;
 
-            if (step == 0)
+            if (step == 0 && level == 0)
             {
                 NavMeshController.Freeze = true;
                 StartCoroutine(NarrativeManager.instance.MoveCamera(NarrativeManager.instance.CameraGuide[NarrativeManager.instance.cameraStep]));
