@@ -64,7 +64,11 @@ public class ValveMovement : MonoBehaviour
             transform.position = ray2.GetPoint(dist2);  
         }
 
-        transform.rotation = Quaternion.LookRotation(mirrorClipPlane.planes[planeFollow].normal);
+        if (planeFollow != 2)
+        {
+            transform.rotation = Quaternion.LookRotation(mirrorClipPlane.planes[planeFollow].normal);
+        }
+        
 
         //transform.localScale = new Vector3(oriScale.x / Mathf.Cos(transform.localEulerAngles.y * Mathf.Deg2Rad) * 0.9f, oriScale.y, oriScale.z);
         

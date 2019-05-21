@@ -28,6 +28,7 @@ public class MirrorMover : MonoBehaviour
     public float Xmax;
 
     private float offsetZ;
+    private float offsetY;
 
     public int snapUnitX = 1;
     public int snapUnitY = 1;
@@ -83,6 +84,7 @@ public class MirrorMover : MonoBehaviour
         
         reference = MousePos;
         offsetZ = MousePos.z - transform.position.z;
+        offsetY = MousePos.y - transform.position.y;
         //agent.velocity = Vector3.zero;
         //rb.velocity = Vector3.zero;
         
@@ -128,7 +130,16 @@ public class MirrorMover : MonoBehaviour
             float z = MousePos.z - reference.z;
             transform.parent.position += new Vector3(0,0, z);
             reference = MousePos;
-        } 
+        }
+        
+        if (name.Contains("Y"))
+        {
+            //print(MousePos.z);
+            MousePos.y = Mathf.Clamp(MousePos.y, Xmin + offsetY, Xmax + offsetY);
+            float y = MousePos.y - reference.y;
+            transform.parent.position += new Vector3(0, y, 0);
+            reference = MousePos;
+        }
     }
 
     private void OnMouseUp()
