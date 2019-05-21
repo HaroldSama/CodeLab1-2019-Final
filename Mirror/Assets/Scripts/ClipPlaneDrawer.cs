@@ -28,10 +28,19 @@ public class ClipPlaneDrawer : MonoBehaviour
 
     public void DrawPlane()
     {
+        //left
         planes[0] = new Plane(mainCam.transform.position, vertices[0].transform.position, vertices[1].transform.position);
+        
+        //right
         planes[1] = new Plane(mainCam.transform.position, vertices[2].transform.position, vertices[3].transform.position);
-        planes[2] = new Plane(mainCam.transform.position, vertices[3].transform.position, vertices[1].transform.position);
+        
+        //up
+        planes[2] = new Plane(mainCam.transform.position, vertices[3].transform.position, vertices[0].transform.position);
+        
+        //dowm
         planes[3] = new Plane(mainCam.transform.position, vertices[1].transform.position, vertices[2].transform.position);
+        
+        //face
         planes[4] = new Plane(vertices[0].transform.position, vertices[3].transform.position, vertices[2].transform.position);
     }
 }
