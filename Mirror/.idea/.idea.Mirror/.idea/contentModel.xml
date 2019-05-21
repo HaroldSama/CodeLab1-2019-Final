@@ -205,6 +205,7 @@
         <e p="Scripts" t="Include">
           <e p="BuildNav.cs" t="Include" />
           <e p="ClipPlaneDrawer.cs" t="Include" />
+          <e p="FenceMovement.cs" t="Include" />
           <e p="GhostMovement.cs" t="Include" />
           <e p="MirrorCam.cs" t="Include" />
           <e p="MirrorMover.cs" t="Include" />
