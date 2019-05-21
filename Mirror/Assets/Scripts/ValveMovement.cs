@@ -24,8 +24,8 @@ public class ValveMovement : MonoBehaviour
         mainCam = Camera.main;
         oriScale = transform.localScale;
         navMod = GetComponent<NavMeshModifier>();
-        oriPos = transform.position;
-        oriRota = transform.rotation;
+        oriPos = transform.localPosition;
+        oriRota = transform.localRotation;
 
         /*foreach (var vertex in vertices)
         {
@@ -44,8 +44,8 @@ public class ValveMovement : MonoBehaviour
     {
         if (planeFollow != 4 && mirrorClipPlane.planes[4].GetSide(transform.position))
         {
-            transform.position = oriPos;
-            transform.rotation = oriRota;
+            transform.localPosition = oriPos;
+            transform.localRotation = oriRota;
             return;
         }
 
@@ -74,7 +74,7 @@ public class ValveMovement : MonoBehaviour
     {
         if (other.CompareTag("Path") && other.name != transform.parent.name && other.name != "Holder")
         {
-            /*if (gameObject.name == "Valve 1 Ghost 1")
+            /*if (gameObject.name == "Valve 0 Ghost 1")
             {
                 print(other.name);
                 //print(transform.parent.name);
