@@ -16,13 +16,16 @@ public class ValveMovement : MonoBehaviour
     private Vector3 oriScale;
     private NavMeshModifier navMod;
 
-
+    private Vector3 oriPos;
+    private Quaternion oriRota;
 
     private void Awake()
     {
         mainCam = Camera.main;
         oriScale = transform.localScale;
         navMod = GetComponent<NavMeshModifier>();
+        oriPos = transform.position;
+        oriRota = transform.rotation;
 
         /*foreach (var vertex in vertices)
         {
@@ -39,6 +42,12 @@ public class ValveMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (planeFollow != 4 && mirrorClipPlane.planes[4].GetSide(transform.position))
+        {
+            transform.position = oriPos;
+            transform.rotation = oriRota;
+            return;
+        }
 
         
         Ray ray1 = new Ray(transform.position, track);
