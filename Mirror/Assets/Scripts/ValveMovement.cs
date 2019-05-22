@@ -19,6 +19,8 @@ public class ValveMovement : MonoBehaviour
     private Vector3 oriPos;
     private Quaternion oriRota;
 
+    public bool statical;
+
     private void Awake()
     {
         mainCam = Camera.main;
@@ -42,6 +44,11 @@ public class ValveMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (statical)
+        {
+            return;
+        }
+        
         if (planeFollow != 4 && mirrorClipPlane.planes[4].GetSide(transform.position))
         {
             transform.localPosition = oriPos;

@@ -4,11 +4,8 @@
     <list default="true" id="09fb8b0a-37c6-46a6-a5e9-989b12d0b1df" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Mirror/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Mirror/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level3.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level5.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level5.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MirrorMover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MirrorMover.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level3/NavMesh-NavMeshHolder.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level3/NavMesh-NavMeshHolder.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ValveMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ValveMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +101,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/MirrorMover.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="273">
@@ -137,28 +134,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/ValveMovement.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-28">
-              <caret line="68" column="101" selection-start-line="68" selection-start-column="101" selection-end-line="68" selection-end-column="101" />
+            <state relative-caret-position="512">
+              <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
               <folding>
-                <marker date="1558456964232" expanded="false" signature="6:236" ph="..." />
-                <marker date="1558456964232" expanded="true" signature="280:2978" ph="{...}" />
-                <marker date="1558456964232" expanded="true" signature="561:960" ph="{...}" />
-                <marker date="1558456964232" expanded="true" signature="784:954" ph="/* foreach (var vertex in vertices) ... */" />
-                <marker date="1558456964232" expanded="true" signature="1031:1052" ph="{...}" />
-                <marker date="1558456964232" expanded="true" signature="1110:2235" ph="{...}" />
-                <marker date="1558456964232" expanded="true" signature="1203:1336" ph="{...}" />
-                <marker date="1558456964232" expanded="true" signature="1546:1623" ph="{...}" />
-                <marker date="1558456964232" expanded="true" signature="1833:1910" ph="{...}" />
-                <marker date="1558456964232" expanded="true" signature="1941:2063" ph="{...}" />
-                <marker date="1558456964232" expanded="true" signature="2283:2710" ph="{...}" />
-                <marker date="1558456964232" expanded="true" signature="2392:2704" ph="{...}" />
-                <marker date="1558456964232" expanded="true" signature="2415:2571" ph="/* if (gameObject.name == &quot;Valve 0 Ghost 1&quot;) ... */" />
-                <marker date="1558456964232" expanded="true" signature="2597:2651" ph="/* print(&quot;Connected&quot;); ... */" />
-                <marker date="1558456964232" expanded="true" signature="2762:2976" ph="{...}" />
-                <marker date="1558456964232" expanded="true" signature="2871:2970" ph="{...}" />
+                <marker date="1558489498890" expanded="false" signature="6:236" ph="..." />
+                <marker date="1558489498890" expanded="true" signature="280:3076" ph="{...}" />
+                <marker date="1558489498890" expanded="true" signature="588:987" ph="{...}" />
+                <marker date="1558489498890" expanded="true" signature="811:981" ph="/* foreach (var vertex in vertices) ... */" />
+                <marker date="1558489498890" expanded="true" signature="1058:1079" ph="{...}" />
+                <marker date="1558489498890" expanded="true" signature="1137:2333" ph="{...}" />
+                <marker date="1558489498890" expanded="true" signature="1165:1205" ph="{...}" />
+                <marker date="1558489498890" expanded="true" signature="1301:1434" ph="{...}" />
+                <marker date="1558489498890" expanded="true" signature="1644:1721" ph="{...}" />
+                <marker date="1558489498890" expanded="true" signature="1931:2008" ph="{...}" />
+                <marker date="1558489498890" expanded="true" signature="2039:2161" ph="{...}" />
+                <marker date="1558489498890" expanded="true" signature="2381:2808" ph="{...}" />
+                <marker date="1558489498890" expanded="true" signature="2490:2802" ph="{...}" />
+                <marker date="1558489498890" expanded="true" signature="2513:2669" ph="/* if (gameObject.name == &quot;Valve 0 Ghost 1&quot;) ... */" />
+                <marker date="1558489498890" expanded="true" signature="2695:2749" ph="/* print(&quot;Connected&quot;); ... */" />
+                <marker date="1558489498890" expanded="true" signature="2860:3074" ph="{...}" />
+                <marker date="1558489498890" expanded="true" signature="2969:3068" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -252,6 +250,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Narratives/NarrativeManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BuildNav.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ValveMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Level5/NavMesh-NavMeshHolder.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Level2.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Examples/Editor/NavMeshComponentsExamplesEditor.asmdef" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Visual Systems Spring 2019/Homework7/Perspective/Assets/Scripts/MirorCam.cs" root0="SKIP_HIGHLIGHTING" />
@@ -290,8 +289,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/FenceMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GhostMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ClipPlaneDrawer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ValveMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MirrorMover.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ValveMovement.cs" />
       </list>
     </option>
   </component>
@@ -370,7 +369,7 @@
       <workItem from="1558376243067" duration="16150000" />
       <workItem from="1558400380725" duration="19398000" />
       <workItem from="1558430779047" duration="1736000" />
-      <workItem from="1558456048911" duration="2287000" />
+      <workItem from="1558456048911" duration="3675000" />
     </task>
     <task id="LOCAL-00001" summary="Mirage effect">
       <created>1558062147592</created>
@@ -589,11 +588,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558456604697</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Level 3 Finished">
+      <created>1558475443039</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1558475443039</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105714000" />
+    <option name="totallyTimeSpent" value="107102000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -684,7 +690,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Valve added" />
     <MESSAGE value="Connection detect" />
     <MESSAGE value="ParticleEffects" />
     <MESSAGE value="Light Guide" />
@@ -709,7 +714,8 @@
     <MESSAGE value="Final Test" />
     <MESSAGE value="Build Setting" />
     <MESSAGE value="Level 3 Initialize" />
-    <option name="LAST_COMMIT_MESSAGE" value="Level 3 Initialize" />
+    <MESSAGE value="Level 3 Finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="Level 3 Finished" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1048,31 +1054,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ValveMovement.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28">
-          <caret line="68" column="101" selection-start-line="68" selection-start-column="101" selection-end-line="68" selection-end-column="101" />
-          <folding>
-            <marker date="1558456964232" expanded="false" signature="6:236" ph="..." />
-            <marker date="1558456964232" expanded="true" signature="280:2978" ph="{...}" />
-            <marker date="1558456964232" expanded="true" signature="561:960" ph="{...}" />
-            <marker date="1558456964232" expanded="true" signature="784:954" ph="/* foreach (var vertex in vertices) ... */" />
-            <marker date="1558456964232" expanded="true" signature="1031:1052" ph="{...}" />
-            <marker date="1558456964232" expanded="true" signature="1110:2235" ph="{...}" />
-            <marker date="1558456964232" expanded="true" signature="1203:1336" ph="{...}" />
-            <marker date="1558456964232" expanded="true" signature="1546:1623" ph="{...}" />
-            <marker date="1558456964232" expanded="true" signature="1833:1910" ph="{...}" />
-            <marker date="1558456964232" expanded="true" signature="1941:2063" ph="{...}" />
-            <marker date="1558456964232" expanded="true" signature="2283:2710" ph="{...}" />
-            <marker date="1558456964232" expanded="true" signature="2392:2704" ph="{...}" />
-            <marker date="1558456964232" expanded="true" signature="2415:2571" ph="/* if (gameObject.name == &quot;Valve 0 Ghost 1&quot;) ... */" />
-            <marker date="1558456964232" expanded="true" signature="2597:2651" ph="/* print(&quot;Connected&quot;); ... */" />
-            <marker date="1558456964232" expanded="true" signature="2762:2976" ph="{...}" />
-            <marker date="1558456964232" expanded="true" signature="2871:2970" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/MirrorMover.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -1100,6 +1081,32 @@
             <marker date="1558458176424" expanded="true" signature="4260:5033" ph="{...}" />
             <marker date="1558458176424" expanded="true" signature="4344:4763" ph="{...}" />
             <marker date="1558458176424" expanded="true" signature="4929:5018" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ValveMovement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+          <folding>
+            <marker date="1558489498890" expanded="false" signature="6:236" ph="..." />
+            <marker date="1558489498890" expanded="true" signature="280:3076" ph="{...}" />
+            <marker date="1558489498890" expanded="true" signature="588:987" ph="{...}" />
+            <marker date="1558489498890" expanded="true" signature="811:981" ph="/* foreach (var vertex in vertices) ... */" />
+            <marker date="1558489498890" expanded="true" signature="1058:1079" ph="{...}" />
+            <marker date="1558489498890" expanded="true" signature="1137:2333" ph="{...}" />
+            <marker date="1558489498890" expanded="true" signature="1165:1205" ph="{...}" />
+            <marker date="1558489498890" expanded="true" signature="1301:1434" ph="{...}" />
+            <marker date="1558489498890" expanded="true" signature="1644:1721" ph="{...}" />
+            <marker date="1558489498890" expanded="true" signature="1931:2008" ph="{...}" />
+            <marker date="1558489498890" expanded="true" signature="2039:2161" ph="{...}" />
+            <marker date="1558489498890" expanded="true" signature="2381:2808" ph="{...}" />
+            <marker date="1558489498890" expanded="true" signature="2490:2802" ph="{...}" />
+            <marker date="1558489498890" expanded="true" signature="2513:2669" ph="/* if (gameObject.name == &quot;Valve 0 Ghost 1&quot;) ... */" />
+            <marker date="1558489498890" expanded="true" signature="2695:2749" ph="/* print(&quot;Connected&quot;); ... */" />
+            <marker date="1558489498890" expanded="true" signature="2860:3074" ph="{...}" />
+            <marker date="1558489498890" expanded="true" signature="2969:3068" ph="{...}" />
           </folding>
         </state>
       </provider>
