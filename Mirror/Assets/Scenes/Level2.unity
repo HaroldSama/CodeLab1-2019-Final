@@ -1196,6 +1196,7 @@ MonoBehaviour:
   origin: {fileID: 228161720}
   mirror: {fileID: 7992060627420640305}
   inverser: 0
+  path: {fileID: 0}
 --- !u!1 &45667963
 GameObject:
   m_ObjectHideFlags: 0
@@ -1518,7 +1519,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh118662
+  m_Name: pb_Mesh202756
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3659,7 +3660,7 @@ PrefabInstance:
     - target: {fileID: 8445200325884809792, guid: 2ecfe3bb2319664429a3c0fa85b24f7f,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8445200325884809792, guid: 2ecfe3bb2319664429a3c0fa85b24f7f,
         type: 3}
@@ -5598,7 +5599,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-170932
+  m_Name: pb_Mesh-245750
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -7433,7 +7434,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-171878
+  m_Name: pb_Mesh203310
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -9041,6 +9042,7 @@ MonoBehaviour:
   origin: {fileID: 1969768185}
   mirror: {fileID: 7992060627420640305}
   inverser: 0
+  path: {fileID: 0}
 --- !u!136 &1908392744
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -9211,7 +9213,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.06666667
   m_BuildHeightMesh: 0
-  m_NavMeshData: {fileID: 23800000, guid: a235c312a11353448928543d9ba25056, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: abc65c8fd14804b458a2f5141f2e7fdd, type: 2}
 --- !u!4 &1930309010
 Transform:
   m_ObjectHideFlags: 0
@@ -9917,6 +9919,7 @@ MonoBehaviour:
   origin: {fileID: 30243872}
   mirror: {fileID: 7992060627420640305}
   inverser: 0
+  path: {fileID: 0}
 --- !u!65 &2066302334
 BoxCollider:
   m_ObjectHideFlags: 0

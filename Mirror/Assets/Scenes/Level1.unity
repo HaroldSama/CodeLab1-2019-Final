@@ -5895,6 +5895,7 @@ MonoBehaviour:
   origin: {fileID: 1969768185}
   mirror: {fileID: 7992060627420640305}
   inverser: 0
+  path: {fileID: 0}
 --- !u!136 &1908392744
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -6065,7 +6066,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.06666667
   m_BuildHeightMesh: 0
-  m_NavMeshData: {fileID: 23800000, guid: 85912cce11ef49d4e82465b1c7772804, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: bcd48c2087749bb4d93517257ca4190e, type: 2}
 --- !u!4 &1930309010
 Transform:
   m_ObjectHideFlags: 0
@@ -6810,6 +6811,7 @@ MonoBehaviour:
   origin: {fileID: 30243872}
   mirror: {fileID: 7992060627420640305}
   inverser: 0
+  path: {fileID: 0}
 --- !u!1 &2085584953
 GameObject:
   m_ObjectHideFlags: 0

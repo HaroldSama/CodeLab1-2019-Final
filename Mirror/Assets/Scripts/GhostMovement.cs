@@ -9,12 +9,12 @@ public class GhostMovement : MonoBehaviour
 
     public GameObject mirror;
     public bool inverser;
-    private NavMeshModifier navMod;
+    public GameObject path;
 
-    private void Awake()
+    /*private void Awake()
     {
-        navMod = GetComponent<NavMeshModifier>();
-    }
+        path = GetComponent<NavMeshModifier>();
+    }*/
 
     // Start is called before the first frame update
     void Start()
@@ -32,13 +32,9 @@ public class GhostMovement : MonoBehaviour
 
         if (inverser)
         {
-            if (transform.position.x < origin.transform.position.x)
+            if ((transform.position.x < origin.transform.position.x && path.activeSelf) || (transform.position.x > origin.transform.position.x && !path.activeSelf))
             {
-                navMod.ignoreFromBuild = true;
-            }
-            else
-            {
-                navMod.ignoreFromBuild = false;
+                path.SetActive(!path.activeSelf);
             }
         }
     }
