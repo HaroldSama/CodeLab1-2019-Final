@@ -12,6 +12,7 @@ public class ValveMovement : MonoBehaviour
     public int planeFollow;
     public ClipPlaneDrawer mirrorClipPlane;
     public Vector3 track;
+    public Collider path;
     private Camera mainCam;
     private Vector3 oriScale;
     private NavMeshModifier navMod;
@@ -83,7 +84,7 @@ public class ValveMovement : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        if (other.CompareTag("Path") && other.name != transform.parent.name && other.name != "Holder")
+        if (other.CompareTag("Path") && other != path)
         {
             /*if (gameObject.name == "Valve 0 Ghost 1")
             {
@@ -91,7 +92,7 @@ public class ValveMovement : MonoBehaviour
                 //print(transform.parent.name);
             }*/
             
-            //print("Connected");
+            //print(name + " Connect with " + other.name);
             //print(other.name);
             navMod.ignoreFromBuild = true;
         }
@@ -99,9 +100,9 @@ public class ValveMovement : MonoBehaviour
     
     private void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("Path") && other.name != transform.parent.name && other.name != "Holder")
+        if (other.CompareTag("Path") && other != path)
         {
-            print("Disconnected");
+            //print(name + " Disconnect with " + other.name);
             navMod.ignoreFromBuild = false;
         }
     }

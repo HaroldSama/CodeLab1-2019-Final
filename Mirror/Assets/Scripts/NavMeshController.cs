@@ -77,7 +77,16 @@ public class NavMeshController : MonoBehaviour
                 if (agent.enabled)
                 {
                     agent.SetDestination(hit.point);
-                    RipplePool.instance.GetRipple(hit.point);
+                    
+                    if (hit.transform.parent.transform.parent.name.Contains("Ghost"))
+                    {
+                        print("Hit a Ghost!");
+                        RipplePool.instance.GetRipple(hit.point, true);
+                    }
+                    else
+                    {
+                        RipplePool.instance.GetRipple(hit.point, false);
+                    }
                 }
                 
                 

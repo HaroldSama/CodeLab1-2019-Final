@@ -5,7 +5,9 @@ using UnityEngine;
 public class RipplePool : MonoBehaviour
 {
     public List<GameObject> ripples = new List<GameObject>();
+    public List<GameObject> ripplesGhost = new List<GameObject>();
     public GameObject ripplePrefab;
+    public GameObject ripplePrefabGhost;
 
     public static RipplePool instance;
 
@@ -26,33 +28,58 @@ public class RipplePool : MonoBehaviour
         
     }
     
-    public GameObject GetRipple(Vector3 pos)
+    public GameObject GetRipple(Vector3 pos, bool isGhost)
     {
         GameObject result = null;
-        
-        if (ripples.Count > 0) //Do we have any boxes to recycle?
+
+        if (isGhost)
         {
-            //get a box out of the list and recycle it
-            result = ripples[0];
-            result.transform.position = pos;
-            ripples.Remove(result);
-            RestartRipple(result);
-            //result.SetActive(true);
+            if (ripplesGhost.Count > 0) //Do we have any boxes to recycle?
+            {
+                //get a box out of the list and recycle it
+                result = ripplesGhost[0];
+                ripplesGhost.Remove(result);
+                result.transform.position = pos;
+                RestartRipple(result);
+                //result.SetActive(true);
+            }
+            else  //No?
+            {
+                //make a new box
+                result = Instantiate(ripplePrefabGhost, pos, Quaternion.identity);
+                result.transform.localEulerAngles = new Vector3(-90, 0, 0);//init prefab from resources
+                RestartRipple(result);
+            }
+    
+            return result; 
         }
-        else  //No?
+        else
         {
-            //make a new box
-            result = Instantiate(ripplePrefab, pos, Quaternion.identity);
-            result.transform.localEulerAngles = new Vector3(-90, 0, 0);//init prefab from resources
-            RestartRipple(result);
+            if (ripples.Count > 0) //Do we have any boxes to recycle?
+            {
+                //get a box out of the list and recycle it
+                result = ripples[0];
+                ripples.Remove(result);
+                result.transform.position = pos;
+                RestartRipple(result);
+                //result.SetActive(true);
+            }
+            else  //No?
+            {
+                //make a new box
+                result = Instantiate(ripplePrefab, pos, Quaternion.identity);
+                result.transform.localEulerAngles = new Vector3(-90, 0, 0);//init prefab from resources
+                RestartRipple(result);
+            }
+    
+            return result;        
         }
 
-        return result;
     }
     
     void RestartRipple(GameObject ripple)
     {
         ripple.transform.Find("Particle System").GetComponent<ParticleSystem>().Play();
-        ripple.GetComponent<RippleSelfControl>().InvokeRecycle();
+        StartCoroutine(ripple.GetComponent<RippleSelfControl>().InvokeRecycle());
     }
 }

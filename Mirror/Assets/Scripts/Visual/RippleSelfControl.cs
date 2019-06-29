@@ -5,9 +5,11 @@ using UnityEngine;
 public class RippleSelfControl : MonoBehaviour
 {
 
-    public void InvokeRecycle()
+    public IEnumerator InvokeRecycle()
     {
-        Invoke("ReCycle", 1f);
+        yield return new WaitForSeconds(1);
+        ReCycle();
+        //Invoke("ReCycle", 1f);
     }
 
     // Update is called once per frame
@@ -18,6 +20,13 @@ public class RippleSelfControl : MonoBehaviour
 
     void ReCycle()
     {
-        RipplePool.instance.ripples.Add(gameObject);
+        if (name.Contains("Ghost"))
+        {
+            RipplePool.instance.ripplesGhost.Add(gameObject);
+        }
+        else
+        {
+            RipplePool.instance.ripples.Add(gameObject);
+        }
     }
 }
