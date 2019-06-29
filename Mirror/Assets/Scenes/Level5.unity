@@ -111,8 +111,8 @@ NavMeshSettings:
     agentClimb: 0.4
     ledgeDropHeight: 0
     maxJumpAcrossDistance: 0
-    minRegionArea: 1
-    manualCellSize: 1
+    minRegionArea: 2
+    manualCellSize: 0
     cellSize: 0.033333335
     manualTileSize: 0
     tileSize: 256
@@ -1484,7 +1484,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ripples: []
+  ripplesGhost: []
   ripplePrefab: {fileID: 6007548915210096983, guid: d5e32c351fcfda94fa8f9a9ac866ef33,
+    type: 3}
+  ripplePrefabGhost: {fileID: 3245655497792184605, guid: 1e51dd8aebac7154bb551ba2bfea97a6,
     type: 3}
 --- !u!4 &55812793
 Transform:
@@ -1567,6 +1570,8 @@ MonoBehaviour:
   planeFollow: 0
   mirrorClipPlane: {fileID: 7992060627420640306}
   track: {x: 0, y: 0, z: 1}
+  path: {fileID: 0}
+  statical: 0
 --- !u!54 &67272145
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1929,6 +1934,8 @@ MonoBehaviour:
   planeFollow: 4
   mirrorClipPlane: {fileID: 7992060627420640306}
   track: {x: 1, y: 0, z: 0}
+  path: {fileID: 0}
+  statical: 0
 --- !u!1 &193652273
 GameObject:
   m_ObjectHideFlags: 0
@@ -4455,6 +4462,8 @@ MonoBehaviour:
   planeFollow: 0
   mirrorClipPlane: {fileID: 7992060627420640306}
   track: {x: 0, y: 0, z: 1}
+  path: {fileID: 0}
+  statical: 0
 --- !u!64 &464343365
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5330,6 +5339,8 @@ MonoBehaviour:
   planeFollow: 1
   mirrorClipPlane: {fileID: 7992060627420640306}
   track: {x: 0, y: 0, z: 1}
+  path: {fileID: 0}
+  statical: 0
 --- !u!54 &655560737
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6180,6 +6191,8 @@ MonoBehaviour:
   planeFollow: 1
   mirrorClipPlane: {fileID: 7992060627420640306}
   track: {x: 0, y: 0, z: 1}
+  path: {fileID: 0}
+  statical: 0
 --- !u!54 &987294782
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7062,6 +7075,8 @@ MonoBehaviour:
   planeFollow: 0
   mirrorClipPlane: {fileID: 7992060627420640306}
   track: {x: 0, y: 0, z: 1}
+  path: {fileID: 0}
+  statical: 0
 --- !u!54 &1278752829
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9235,6 +9250,8 @@ MonoBehaviour:
   planeFollow: 0
   mirrorClipPlane: {fileID: 7992060627420640306}
   track: {x: 0, y: 0, z: 1}
+  path: {fileID: 0}
+  statical: 0
 --- !u!114 &1559540395
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9334,6 +9351,8 @@ MonoBehaviour:
   planeFollow: 1
   mirrorClipPlane: {fileID: 7992060627420640306}
   track: {x: 0, y: 0, z: 1}
+  path: {fileID: 0}
+  statical: 0
 --- !u!54 &1579248750
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10609,6 +10628,8 @@ MonoBehaviour:
   planeFollow: 0
   mirrorClipPlane: {fileID: 7992060627420640306}
   track: {x: 0, y: 0, z: 1}
+  path: {fileID: 0}
+  statical: 0
 --- !u!64 &1752857955
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10752,6 +10773,8 @@ MonoBehaviour:
   planeFollow: 1
   mirrorClipPlane: {fileID: 7992060627420640306}
   track: {x: 0, y: 0, z: 1}
+  path: {fileID: 0}
+  statical: 0
 --- !u!64 &1754921482
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11494,6 +11517,8 @@ MonoBehaviour:
   planeFollow: 0
   mirrorClipPlane: {fileID: 7992060627420640306}
   track: {x: 0, y: 0, z: 1}
+  path: {fileID: 0}
+  statical: 0
 --- !u!54 &1838490585
 Rigidbody:
   m_ObjectHideFlags: 0

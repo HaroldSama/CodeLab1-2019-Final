@@ -21,6 +21,7 @@ public class ValveMovement : MonoBehaviour
     private Quaternion oriRota;
 
     public bool statical;
+    public bool rotate = true;
 
     private void Awake()
     {
@@ -72,7 +73,7 @@ public class ValveMovement : MonoBehaviour
             transform.position = ray2.GetPoint(dist2);  
         }
 
-        if (planeFollow != 2)
+        if (rotate)
         {
             transform.rotation = Quaternion.LookRotation(mirrorClipPlane.planes[planeFollow].normal);
         }
