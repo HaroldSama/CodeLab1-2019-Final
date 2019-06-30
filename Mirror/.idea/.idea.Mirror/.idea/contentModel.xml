@@ -209,6 +209,7 @@
           <e p="GhostMovement.cs" t="Include" />
           <e p="MirrorCam.cs" t="Include" />
           <e p="MirrorMover.cs" t="Include" />
+          <e p="MirrorSpinner.cs" t="Include" />
           <e p="Narratives" t="Include">
             <e p="NarrativeManager.cs" t="Include" />
             <e p="SparkleGuide.cs" t="Include" />

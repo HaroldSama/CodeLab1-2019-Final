@@ -1888,7 +1888,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e30fd28e46582204f9b31191ce85c943, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1969768185}
   firstMove: 1
   allignTime: 0.5
   Xmin: 1
@@ -2551,7 +2550,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-274332
+  m_Name: pb_Mesh-57496
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4969,7 +4968,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh133006
+  m_Name: pb_Mesh56546
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -8604,7 +8603,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0.1171875, y: 0.04296875, z: 0.0390625, w: -0.04296875}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: NaN, w: 1.05e-43}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -12137,7 +12136,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh212468
+  m_Name: pb_Mesh57046
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -13343,6 +13342,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26209c3c581ca464ab5933b2fd252e47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 1969768185}
 --- !u!114 &1947961975
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16105,7 +16105,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e30fd28e46582204f9b31191ce85c943, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1969768185}
   firstMove: 1
   allignTime: 0.5
   Xmin: 5

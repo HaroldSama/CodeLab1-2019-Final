@@ -2762,7 +2762,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e30fd28e46582204f9b31191ce85c943, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1969768185}
   firstMove: 1
   allignTime: 0.5
   Xmin: -8
@@ -5336,6 +5335,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26209c3c581ca464ab5933b2fd252e47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 1969768185}
 --- !u!114 &1947961975
 MonoBehaviour:
   m_ObjectHideFlags: 0

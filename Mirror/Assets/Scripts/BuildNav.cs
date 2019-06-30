@@ -23,7 +23,8 @@ public class BuildNav : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Invoke("Build", 0.1f);
+        //Build navmesh at the start of the game
+        Build();
     }
 
     // Update is called once per frame
@@ -32,9 +33,27 @@ public class BuildNav : MonoBehaviour
         
     }
 
+    public void Unbuild() //Make character being able to fall when the path was move off her feet
+    {
+        rb.isKinematic = false;
+        agent.enabled = false;
+    }
+    
     public void Build()
+    {
+        Invoke("Building", 0.1f);
+    }
+
+    void Building()
     {
         print("Build");
         surface.BuildNavMesh();
+        
+        //If player didn't fall off, put it back to the NavMesh
+        if (player.transform.position.y > - 0.1)
+        {
+            rb.isKinematic = true;
+            agent.enabled = true;
+        }        
     }
 }

@@ -6,14 +6,15 @@ using UnityEngine;
 public class MirrorSpinner : MonoBehaviour
 {
     public float rotateTime = 1;
-    public Vector3 maxAngle;
+    public float minAngle;
+    public float maxAngle;
     public Vector3 angle;
     private Vector3 oriAngle;
     private bool rotating;
 
     private void Awake()
     {
-        oriAngle = transform.parent.transform.localEulerAngles;
+        oriAngle = transform.parent.localEulerAngles;
     }
 
     // Start is called before the first frame update
@@ -30,10 +31,15 @@ public class MirrorSpinner : MonoBehaviour
 
     private void OnMouseUp()
     {
-        print("Rotate");
-        if (!rotating)
+        Vector3 angleRotated = transform.parent.localEulerAngles - oriAngle;
+        float angleSum = angleRotated.x + angleRotated.y + angleRotated.z;
+        //print(angleSum);
+        
+        if (!rotating && angleSum > minAngle && angleSum < maxAngle)
         {
+            print("Rotate");
             rotating = true;
+            BuildNav.buildNav.Unbuild();
             StartCoroutine(RotateMirror());
         }
         
@@ -43,12 +49,12 @@ public class MirrorSpinner : MonoBehaviour
     {
         float timer = 0;
 
-        Vector3 currentAngle = transform.parent.transform.localEulerAngles;
-        Vector3 targetAngle = transform.parent.transform.localEulerAngles + angle;
+        Vector3 currentAngle = transform.parent.localEulerAngles;
+        Vector3 targetAngle = transform.parent.localEulerAngles + angle;
             
         while (timer * Time.deltaTime < rotateTime)
         {
-            transform.parent.transform.localEulerAngles =
+            transform.parent.localEulerAngles =
                 Vector3.Lerp(currentAngle, targetAngle, timer * Time.deltaTime / rotateTime);
 
             timer++;
@@ -56,7 +62,8 @@ public class MirrorSpinner : MonoBehaviour
             yield return 0;
         }
 
-        transform.parent.transform.localEulerAngles = targetAngle;
+        transform.parent.localEulerAngles = targetAngle;
         rotating = false;
+        BuildNav.buildNav.Build();
     }
 }

@@ -7,7 +7,7 @@ using UnityEngine.AI;
 
 public class MirrorMover : MonoBehaviour
 {
-    public GameObject player;
+    //public GameObject player;
     
     private Camera mainCam;
     private Vector3 MousePos;
@@ -16,8 +16,8 @@ public class MirrorMover : MonoBehaviour
     private Vector3 planePos;
     
     private Vector3 reference;
-    private Rigidbody rb;
-    private NavMeshAgent agent;
+    //private Rigidbody rb;
+    //private NavMeshAgent agent;
 
     public bool firstMove;
     //private bool aligning;
@@ -40,8 +40,8 @@ public class MirrorMover : MonoBehaviour
     private void Awake()
     {
         mainCam = Camera.main;
-        agent = player.GetComponent<NavMeshAgent>();
-        rb = player.GetComponent<Rigidbody>();
+        //agent = player.GetComponent<NavMeshAgent>();
+        //rb = player.GetComponent<Rigidbody>();
     }
 
     // Start is called before the first frame update
@@ -88,10 +88,11 @@ public class MirrorMover : MonoBehaviour
         //agent.velocity = Vector3.zero;
         //rb.velocity = Vector3.zero;
         
-        //Make character being able to fall when the path was move off her feet
-        rb.isKinematic = false;
-        agent.enabled = false;
+        //Unbound the player with the navmesh so she's able to fall when the path move off her feet
+        BuildNav.buildNav.Unbuild();
+        
 
+        //If it's the first time to click, hide the instruction
         if (!firstMove)
         {
             firstMove = true;
@@ -115,6 +116,7 @@ public class MirrorMover : MonoBehaviour
         
         Debug.DrawLine(mainCam.transform.position, planePos, Color.blue);
         
+        //Move the mirror along to which track according to the name of the frame
         if (name.Contains("X"))
         {
             planePos.x = Mathf.Clamp(planePos.x, Xmin, Xmax);
@@ -165,14 +167,7 @@ public class MirrorMover : MonoBehaviour
             yield return 0;
         }
         
+        //Rebuild the navmesh
         BuildNav.buildNav.Build();
-        
-        //If player didn't fall off, put it back to the NavMesh
-        if (player.transform.position.y > - 0.1)
-        {
-            rb.isKinematic = true;
-            agent.enabled = true;
-        }
-        
     }
 }
