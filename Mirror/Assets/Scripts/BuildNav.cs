@@ -6,13 +6,18 @@ using UnityEngine.AI;
 public class BuildNav : MonoBehaviour
 {
     NavMeshSurface surface;
-
+    public GameObject player;
     public static BuildNav buildNav;
+    
+    private Rigidbody rb;
+    private NavMeshAgent agent;
 
     private void Awake()
     {
         buildNav = this;
         surface = gameObject.GetComponent<NavMeshSurface>();
+        agent = player.GetComponent<NavMeshAgent>();
+        rb = player.GetComponent<Rigidbody>();
     }
 
     // Start is called before the first frame update
