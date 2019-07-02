@@ -9,10 +9,19 @@ using Vector3 = UnityEngine.Vector3;
 
 public class ValveMovement : MonoBehaviour
 {
+    [Tooltip("0:left\n1:right\n2:up\n3:down\n4:face\n-1:none")]
     public int planeFollow;
+    //0:left 1:right 2:up 3:down 4:face -1:none
+    
     public ClipPlaneDrawer mirrorClipPlane;
+    
     public Vector3 track;
+    public bool trackIsRotateable;
+    public Transform trackRoot;
+    public Transform trackTip;
+    
     public Collider path;
+    
     private Camera mainCam;
     private Vector3 oriScale;
     private NavMeshModifier navMod;
@@ -51,11 +60,18 @@ public class ValveMovement : MonoBehaviour
             return;
         }
         
-        if (planeFollow != 4 && mirrorClipPlane.planes[4].GetSide(transform.position))
+        //If the ghost is in front of the mirror, which means the original object is on the back of the mirror:
+        //or the valve is not asked to follow any plane
+        if ((planeFollow != 4 && mirrorClipPlane.planes[4].GetSide(transform.position)) || planeFollow == -1)
         {
             transform.localPosition = oriPos;
             transform.localRotation = oriRota;
             return;
+        }
+
+        if (trackIsRotateable)
+        {
+            track = trackTip.position - trackRoot.position;
         }
 
         

@@ -5,6 +5,8 @@ using UnityEngine;
 public class ClipPlaneDrawer : MonoBehaviour
 {
     public GameObject[] vertices;
+    //0:leftTop 1:leftBottom 2:rightTop 3:rightBottom
+    
     public Plane[] planes = new Plane[5];
 
     private Camera mainCam;

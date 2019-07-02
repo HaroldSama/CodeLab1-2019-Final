@@ -802,7 +802,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh16620
+  m_Name: pb_Mesh16430
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2309,7 +2309,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &464343361
 Transform:
   m_ObjectHideFlags: 0
@@ -2317,13 +2317,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 464343360}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: 0.05, z: 0.5}
-  m_LocalScale: {x: 3, y: 2, z: -1}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -1.5, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 8445200325640340608}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!54 &464343362
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2368,10 +2368,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2352ff68e792396449bf896dcbd5942e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  planeFollow: 0
+  planeFollow: -1
   mirrorClipPlane: {fileID: 7992060627420640306}
-  track: {x: 0, y: 0, z: 1}
-  path: {fileID: 0}
+  track: {x: 1, y: 0, z: 0}
+  trackIsRotateable: 1
+  trackRoot: {fileID: 1888205941}
+  trackTip: {fileID: 1729348016}
+  path: {fileID: 8445200326362458323}
   statical: 0
   rotate: 1
 --- !u!64 &464343365
@@ -3147,7 +3150,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &918410655
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3164,7 +3167,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 3.6896973, y: -3.6897278}
+  m_AnchoredPosition: {x: 3.6896973, y: -3.6896973}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &918410656
@@ -7331,6 +7334,51 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mirror: {fileID: 7992060627420640305}
+--- !u!1 &1729348015
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1729348016}
+  - component: {fileID: 1729348017}
+  m_Layer: 0
+  m_Name: Tip-G2G
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1729348016
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1729348015}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.5, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8445200325640340608}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1729348017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1729348015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e349bc97440fdf94393bac6ebf8f82c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  valve: {fileID: 464343364}
+  mirrorClipPlane: {fileID: 7992060627420640306}
 --- !u!1 &1752857950
 GameObject:
   m_ObjectHideFlags: 0
@@ -7414,6 +7462,9 @@ MonoBehaviour:
   planeFollow: 0
   mirrorClipPlane: {fileID: 7992060627420640306}
   track: {x: 0, y: 0, z: 1}
+  trackIsRotateable: 0
+  trackRoot: {fileID: 0}
+  trackTip: {fileID: 0}
   path: {fileID: 1243902953}
   statical: 0
   rotate: 1
@@ -7560,6 +7611,9 @@ MonoBehaviour:
   planeFollow: 1
   mirrorClipPlane: {fileID: 7992060627420640306}
   track: {x: 0, y: 0, z: 1}
+  trackIsRotateable: 0
+  trackRoot: {fileID: 0}
+  trackTip: {fileID: 0}
   path: {fileID: 8445200326559170569}
   statical: 0
   rotate: 1
@@ -7629,7 +7683,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh16894
+  m_Name: pb_Mesh16722
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -8089,6 +8143,36 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1888205940
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1888205941}
+  m_Layer: 0
+  m_Name: Root-G2G
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1888205941
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1888205940}
+  m_LocalRotation: {x: -0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.5, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8445200325640340608}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1908392740 stripped
 GameObject:
@@ -9983,6 +10067,9 @@ MonoBehaviour:
   planeFollow: 1
   mirrorClipPlane: {fileID: 7992060627420640306}
   track: {x: 0, y: 0, z: 1}
+  trackIsRotateable: 0
+  trackRoot: {fileID: 0}
+  trackTip: {fileID: 0}
   path: {fileID: 8445200325785678799}
   statical: 0
   rotate: 1
@@ -9997,6 +10084,8 @@ Transform:
   m_LocalPosition: {x: 3.5, y: 0, z: -6.5}
   m_LocalScale: {x: -1, y: 1, z: 1}
   m_Children:
+  - {fileID: 1888205941}
+  - {fileID: 1729348016}
   - {fileID: 8445200327330800878}
   - {fileID: 464343361}
   - {fileID: 8445200326758963247}
@@ -10779,8 +10868,8 @@ MonoBehaviour:
   orientation: {x: 1, y: 0, z: 0}
   lMin: 0
   lMax: 6
-  mobile: 0
-  rootValve: {fileID: 0}
+  mobile: 1
+  rootValve: {fileID: 464343361}
 --- !u!4 &8445200326758963247
 Transform:
   m_ObjectHideFlags: 0
@@ -10794,7 +10883,7 @@ Transform:
   m_Children:
   - {fileID: 8445200326362458324}
   m_Father: {fileID: 8445200325640340608}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &8445200327000116272
 MeshCollider:
@@ -10825,6 +10914,9 @@ MonoBehaviour:
   planeFollow: 0
   mirrorClipPlane: {fileID: 7992060627420640306}
   track: {x: 0, y: 0, z: 1}
+  trackIsRotateable: 0
+  trackRoot: {fileID: 0}
+  trackTip: {fileID: 0}
   path: {fileID: 8445200326559170569}
   statical: 0
   rotate: 1
@@ -11413,6 +11505,9 @@ MonoBehaviour:
   planeFollow: 4
   mirrorClipPlane: {fileID: 7992060627420640306}
   track: {x: 1, y: 0, z: 0}
+  trackIsRotateable: 1
+  trackRoot: {fileID: 1888205941}
+  trackTip: {fileID: 1729348016}
   path: {fileID: 8445200326362458323}
   statical: 0
   rotate: 1
@@ -11460,7 +11555,7 @@ Transform:
   m_LocalScale: {x: 1.000001, y: 2, z: 1.000001}
   m_Children: []
   m_Father: {fileID: 8445200325640340608}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &8445200327330800879
 GameObject:
